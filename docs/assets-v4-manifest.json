@@ -1,0 +1,187 @@
+{
+  "version": "pixel-ui-v4",
+  "date": "2026-10-18",
+  "assets": [
+    {
+      "id": "pixel-cottage-v4",
+      "png": "src/assets/pixel-cottage-v4.png",
+      "webp": "src/assets/pixel-cottage-v4.webp",
+      "pngSha256": "22fc32b75c3bbf31e811e2b8d836d6f9891b492adcf0002ead11defb0ee6907f",
+      "pngBytes": 2164813,
+      "webpSha256": "6b53bbae59141a73174d611bda7a80586c01fa778214557f59a24669397a5edc",
+      "webpBytes": 1618828,
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: transparent pixel-art game environment, original isometric cutaway wizard cottage floating in quiet space. Create a NEW original asset, not a copy of any existing game. Subject: a charming detailed two-level cutaway stone-and-timber adult wizard couple's cottage, full building and floating stone foundation visible. In the main lower room, TWO clearly visible ADULT characters both age 23 are seated facing each other at a small square chess table, recognizable black and ivory chess pieces on the board: adult Harry Potter with black messy hair, round spectacles, dark sweater; adult FEMALE Draco Malfoy with long pale blonde hair and green-and-silver adult wizard clothing. The blonde woman sits on the RIGHT side of the central chess table; the dark-haired man on the LEFT. Both comfortably clothed. They are small pixel characters, integrated naturally into the room. The table and two characters must be unoccluded and readable as the focal point in the LOWER MIDDLE of the cottage. Architecture: cutaway open front, emerald curtains, arched back window, a little bookcase, one small warm fireplace, a plant, compact staircase to a quiet sleeping loft. Architectural silhouette different from Cosmic Wheel Sisterhood, no snake, no gigantic guardian or deity, no antlers, no purple castle. Composition: entire house/platform centered within square canvas, about 85 percent of height, at least 6 percent transparent margin on every side, clean readable dollhouse silhouette. The chess room occupies about 55 percent of visible architecture; loft 25 percent. Art: deliberately crisp professional hand-placed pixel-art language, consistent visible chunky pixel grid, limited palette, flat stepped shading, clean stair-stepped edges, no smooth gradients, no painterly brushwork, no 3D render look, no antialiased vector outlines. Colors: very dark ink/slate stone, subdued teal/emerald, brown timber, small warm amber candle/window accents, ivory/blonde highlights; shadowed and cozy without glowing excessively. Lighting: one restrained warm interior focus on the chess table, outside much darker. Background MUST be fully transparent alpha, no background stars or sky, no ground plane beyond the floating stone foundation, no fake transparency checkerboard. No text, no labels, no logo, no border, no UI. This isolated original house will be composited against code-rendered low-density dim stars, and clicked to zoom in as a game hub.",
+      "tool": "image_gen.imagegen (built-in)"
+    },
+    {
+      "id": "wardrobe-v4-college",
+      "png": "src/assets/wardrobe-v4-college.png",
+      "webp": "src/assets/wardrobe-v4-college.webp",
+      "pngSha256": "29b4a32b612b253257a50f5448beb0ee7ef81b23f1138fd5d3eb9654b884d952",
+      "pngBytes": 2099023,
+      "webpSha256": "9f95d4872eabab112b2d3a31179d2e209e4e17aca5a110b90e09a2a7c76243b9",
+      "webpBytes": 265296,
+      "size": [
+        1536,
+        1024
+      ],
+      "prompt": "RECOMPOSE THIS SPRITE SHEET. The current three characters overlap; fixing that is the only important goal. Make ALL THREE figures MUCH SMALLER: each entire figure must be exactly about SIXTY PERCENT of image height, centered vertically, leaving twenty percent EMPTY TRANSPARENT SPACE above and twenty percent below. Leave an enormous EMPTY TRANSPARENT GAP between figures. Place the three bodies at x=one-sixth, one-half, five-sixths of canvas width. No body may cross its own one-third of the canvas. You MUST change the size and layout radically; keeping the original full-height overcrowded layout is a failure. Preserve the same adult female Draco Malfoy age23, face identities, emerald-and-silver outfit, skirt, stockings, boots, wand, and distinct three facial expressions in original order. Restore missing cape edges so each SMALLER figure is complete and isolated. Three figures only, not duplicated fragments. Output LANDSCAPE transparent-alpha atlas, no background colors, no shadows outside characters, no text, no panels. The upper and lower fifths of the image must be completely transparent. High definition detailed anime art, not pixel art.",
+      "tool": "image_gen.imagegen (built-in)",
+      "editTarget": "src/assets/wardrobe-v3-college.png"
+    },
+    {
+      "id": "wardrobe-v4-college-expressions-b",
+      "png": "src/assets/wardrobe-v4-college-expressions-b.png",
+      "webp": "src/assets/wardrobe-v4-college-expressions-b.webp",
+      "pngSha256": "7e5b24c650a10101cb6370ee4acdc29b8161bdb4821a0fd69da67e73064ae656",
+      "pngBytes": 2222250,
+      "webpSha256": "2a5c63aeb9d6e003a15bd47686f3a92491627027098f59602b7569655a945971",
+      "webpBytes": 297176,
+      "size": [
+        1536,
+        1024
+      ],
+      "prompt": "RECOMPOSE the supplied 3-FRAME sprite sheet of adult FEMALE Draco Malfoy age23. Technical layout repair: 3 completely isolated characters, equally spaced on ONE ROW. Make every entire figure MUCH SMALLER: each character must be only SIXTY PERCENT of canvas height, centered vertically, with twenty percent empty transparent padding above and twenty percent below. Leave WIDE transparent empty gaps between figures. Each person must be entirely inside her own equal-width cell; no figure may cross a cell boundary. Canvas landscape 3:2 with three equal-width cells. You MUST substantially SHRINK and recompose all figures, keeping the original overcrowded layout is a failure. Preserve the same face identity, blonde hair, original clothing and colors, original pose, wand and shoes. Preserve each existing facial expression in its original left-to-right order: wink, happy laugh, pout. Keep detailed high definition anime illustration, NOT pixel art. Restore outer cape/dress silhouettes that were occluded by the neighbor, so full hair, clothing hem, wand and BOTH complete shoes are visible. No fragments, no shared capes, no extra characters. Transparent alpha background; no colored backdrop, no checkerboard, no text, no grid, no labels, no floor or external shadows. The top and bottom fifths of the canvas must be entirely transparent.",
+      "tool": "image_gen.imagegen (built-in)",
+      "editTarget": "src/assets/wardrobe-v3-college-expressions-b.png"
+    },
+    {
+      "id": "wardrobe-v4-college-expressions-c",
+      "png": "src/assets/wardrobe-v4-college-expressions-c.png",
+      "webp": "src/assets/wardrobe-v4-college-expressions-c.webp",
+      "pngSha256": "5d6a129df3c2e3f7424e8ff9902deff0adc0822de274eba72a7739ed010fc65f",
+      "pngBytes": 1662690,
+      "webpSha256": "cfebfe1d71d5b2e6305415b8d00e6b3dbb0a468f1952aee8a72e5630f4300a13",
+      "webpBytes": 297628,
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "Technical sprite-layout edit. Treat the TWO existing fully clothed adult character illustrations as unchanged objects. Reduce BOTH illustrations uniformly to 65 percent of their current size, and place them separately at the centers of the left half and right half of a square transparent canvas. Keep the original two facial expressions and all original clothing, colors and details. Each complete character silhouette must be visible with a generous transparent margin around it. The two illustrations must not touch or overlap. Empty alpha background only. Do not redraw the design, change the outfit, add characters, add text or add any new subject matter; only repair separation and outer contours. High definition artwork retained.",
+      "tool": "image_gen.imagegen (built-in)",
+      "editTarget": "src/assets/wardrobe-v3-college-expressions-c.png"
+    },
+    {
+      "id": "wardrobe-v4-gala",
+      "png": "src/assets/wardrobe-v4-gala.png",
+      "webp": "src/assets/wardrobe-v4-gala.webp",
+      "pngSha256": "a54c0d9c910f6286a437e40e6fa09abc26ae33fa02aeca48b12cbba2faf1e11a",
+      "pngBytes": 2045961,
+      "webpSha256": "eb12fd37d7a8d43e4505a292378c574d2edb52e6358b87b925c19b135d054592",
+      "webpBytes": 255388,
+      "size": [
+        1536,
+        1024
+      ],
+      "prompt": "Technical layout edit of an existing nonsexual, fully clothed adult character sprite sheet. Keep the 3 existing adult women (same female Draco, age23) in their original order and preserve their original confident, shy, blushing facial expressions. Recompose all 3 complete full-body figures at SIXTY PERCENT of image height, centered vertically with twenty percent transparent margin above and below. Equal-width cells on one row, 3:2 landscape canvas. Each figure must be completely inside her own cell and separated from neighbors by a LARGE transparent gap. Preserve the original modest FLOOR-LENGTH fully covering emerald formal gown, long sleeves, gold embroidery, hairstyle, face, wand and shoes. Restore any overlapping dress edge so every whole dress silhouette is isolated. Retain detailed high definition anime illustration. No exposed legs, no new skin exposure, no changes to the original fully clothed outfit. No background, no text, no labels, no grid, no shadows or glow behind figures. Transparent alpha outside the figures. This is a game atlas packing fix: shrinking the complete figures and leaving wide empty gaps is required; no figure can touch another.",
+      "tool": "image_gen.imagegen (built-in)",
+      "editTarget": "src/assets/wardrobe-v3-gala.png"
+    },
+    {
+      "id": "wardrobe-v4-gala-expressions-b",
+      "png": "src/assets/wardrobe-v4-gala-expressions-b.png",
+      "webp": "src/assets/wardrobe-v4-gala-expressions-b.webp",
+      "pngSha256": "1746f3c05eca1c7fe1026df11565be8661e7da0ed728435a20a99c4ef8e194da",
+      "pngBytes": 2122812,
+      "webpSha256": "470d8fc3aa8d696c38400834ed4bb1ccec3e4c5a04f5d66d1b7ebd9455172b83",
+      "webpBytes": 276426,
+      "size": [
+        1536,
+        1024
+      ],
+      "prompt": "Technical layout edit of an existing nonsexual, fully clothed adult character sprite sheet. Keep the 3 existing adult women (same female Draco, age23) in their original order and preserve their original wink, laughter, pout facial expressions. Recompose all 3 complete full-body figures at SIXTY PERCENT of image height, centered vertically with twenty percent transparent margin above and below. Equal-width cells on one row, 3:2 landscape canvas. Each figure must be completely inside her own cell and separated from neighbors by a LARGE transparent gap. Preserve the original modest FLOOR-LENGTH fully covering emerald formal gown, long sleeves, gold embroidery, hairstyle, face, wand and shoes. Restore any overlapping dress edge so every whole dress silhouette is isolated. Retain detailed high definition anime illustration. No exposed legs, no new skin exposure, no changes to the original fully clothed outfit. No background, no text, no labels, no grid, no shadows or glow behind figures. Transparent alpha outside the figures. This is a game atlas packing fix: shrinking the complete figures and leaving wide empty gaps is required; no figure can touch another.",
+      "tool": "image_gen.imagegen (built-in)",
+      "editTarget": "src/assets/wardrobe-v3-gala-expressions-b.png"
+    },
+    {
+      "id": "wardrobe-v4-gala-expressions-c",
+      "png": "src/assets/wardrobe-v4-gala-expressions-c.png",
+      "webp": "src/assets/wardrobe-v4-gala-expressions-c.webp",
+      "pngSha256": "43ec72dec421d8c2687e2416a1c9854e02e3d9a59a866580feb42f356cf0f404",
+      "pngBytes": 1585299,
+      "webpSha256": "a3dc34e73c11ade2b6c6e2dfb2bfc60fae14b80cce9744fef0fc5fac39bda34a",
+      "webpBytes": 300974,
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "Technical layout edit of an existing nonsexual, fully clothed adult character sprite sheet. Keep the 2 existing adult women (same female Draco, age23) in their original order and preserve their original concerned, gentle smile facial expressions. Recompose all 2 complete full-body figures at SIXTY PERCENT of image height, centered vertically with twenty percent transparent margin above and below. Equal-width cells on one row, square canvas. Each figure must be completely inside her own cell and separated from neighbors by a LARGE transparent gap. Preserve the original modest FLOOR-LENGTH fully covering emerald formal gown, long sleeves, gold embroidery, hairstyle, face, wand and shoes. Restore any overlapping dress edge so every whole dress silhouette is isolated. Retain detailed high definition anime illustration. No exposed legs, no new skin exposure, no changes to the original fully clothed outfit. No background, no text, no labels, no grid, no shadows or glow behind figures. Transparent alpha outside the figures. This is a game atlas packing fix: shrinking the complete figures and leaving wide empty gaps is required; no figure can touch another.",
+      "tool": "image_gen.imagegen (built-in)",
+      "editTarget": "src/assets/wardrobe-v3-gala-expressions-c.png"
+    },
+    {
+      "id": "wardrobe-v4-champagne",
+      "png": "src/assets/wardrobe-v4-champagne.png",
+      "webp": "src/assets/wardrobe-v4-champagne.webp",
+      "pngSha256": "9be507560da5431133389a58cb122519d1e2a6ccd8bf5c909a951d42b9f08008",
+      "webpSha256": "3c5c1d3f9b1a8dc1b3b25e244db86c4b321375bbfafc4a73fb77bfa400490fb3",
+      "pngBytes": 2244485,
+      "webpBytes": 297352,
+      "size": [
+        1536,
+        1024
+      ],
+      "prompt": "Technical sprite-sheet repair of the provided illustration of an ADULT WOMAN age23. Preserve the existing adult character identity, blonde hair, original outfit, garment colors, pose, shoes, accessories and the distinct facial expressions (proud smirk, light blush, deep blush) in original order. Recompose EXACTLY THREE complete full-body figures in one horizontal row on transparent alpha background. Make each entire figure only SIXTY PERCENT of canvas height; centered vertically with twenty percent transparent padding above and below. Every figure centered within its own equal-width column, with huge empty transparent gutters between figures. Absolutely no touching figures, no shared dress hems or wands, no cropped head, hair, hat, cape or shoes. Restore occluded garment edges as necessary. This is a layout and silhouette separation repair; retain high-definition anime illustration. No added people, no text, no labels, no grid, no floor, no background or shadows outside figures. Landscape 3:2 canvas, three equally spaced small figures. Maintaining the original overcrowded scale is a failure. Keep all fashion tasteful and fully clothed.",
+      "tool": "image_gen.imagegen (built-in)",
+      "editTarget": "src/assets/wardrobe-v3-champagne.png"
+    },
+    {
+      "id": "wardrobe-v4-champagne-expressions-b",
+      "png": "src/assets/wardrobe-v4-champagne-expressions-b.png",
+      "webp": "src/assets/wardrobe-v4-champagne-expressions-b.webp",
+      "pngSha256": "312b0cc14a56b4476f2b50f5f4188aedf37a16cbe9557eaadd761f6ab4ccb38b",
+      "webpSha256": "1de878011d561519f01356c416a50d8fd16fdf12cc64194115ab4e01ecd2eaee",
+      "pngBytes": 2287423,
+      "webpBytes": 315246,
+      "size": [
+        1536,
+        1024
+      ],
+      "prompt": "Technical sprite-sheet repair of the provided illustration of an ADULT WOMAN age23. Preserve the existing adult character identity, blonde hair, original outfit, garment colors, pose, shoes, accessories and the distinct facial expressions (wink, happy laugh, pouting) in original order. Recompose EXACTLY THREE complete full-body figures in one horizontal row on transparent alpha background. Make each entire figure only SIXTY PERCENT of canvas height; centered vertically with twenty percent transparent padding above and below. Every figure centered within its own equal-width column, with huge empty transparent gutters between figures. Absolutely no touching figures, no shared dress hems or wands, no cropped head, hair, hat, cape or shoes. Restore occluded garment edges as necessary. This is a layout and silhouette separation repair; retain high-definition anime illustration. No added people, no text, no labels, no grid, no floor, no background or shadows outside figures. Landscape 3:2 canvas, three equally spaced small figures. Maintaining the original overcrowded scale is a failure. Keep all fashion tasteful and fully clothed.",
+      "tool": "image_gen.imagegen (built-in)",
+      "editTarget": "src/assets/wardrobe-v3-champagne-expressions-b.png"
+    },
+    {
+      "id": "wardrobe-v4-champagne-expressions-c",
+      "png": "src/assets/wardrobe-v4-champagne-expressions-c.png",
+      "webp": "src/assets/wardrobe-v4-champagne-expressions-c.webp",
+      "pngSha256": "cfd621b40e52cad3a4fa35bb6d48f614bdcc07b756b6949da0b71e92796b7823",
+      "webpSha256": "389b682bea32e561c4a3f56ad56fbbfe0850566f36d7655e5de32f4a0eba3c81",
+      "pngBytes": 1437928,
+      "webpBytes": 282382,
+      "size": [
+        1254,
+        1254
+      ],
+      "prompt": "Technical sprite-sheet repair of the provided illustration of an ADULT WOMAN age23. Preserve the existing adult character identity, blonde hair, original outfit, garment colors, pose, shoes, accessories and the distinct facial expressions (concerned, gentle smile) in original order. Recompose EXACTLY TWO complete full-body figures in one horizontal row on transparent alpha background. Make each entire figure only SIXTY PERCENT of canvas height; centered vertically with twenty percent transparent padding above and below. Every figure centered within its own equal-width column, with huge empty transparent gutters between figures. Absolutely no touching figures, no shared dress hems or wands, no cropped head, hair, hat, cape or shoes. Restore occluded garment edges as necessary. This is a layout and silhouette separation repair; retain high-definition anime illustration. No added people, no text, no labels, no grid, no floor, no background or shadows outside figures. Square canvas, two equally spaced small figures. Maintaining the original overcrowded scale is a failure. Keep all fashion tasteful and fully clothed.",
+      "tool": "image_gen.imagegen (built-in)",
+      "editTarget": "src/assets/wardrobe-v3-champagne-expressions-c.png"
+    },
+    {
+      "id": "wardrobe-v4-witch",
+      "png": "src/assets/wardrobe-v4-witch.png",
+      "webp": "src/assets/wardrobe-v4-witch.webp",
+      "pngSha256": "57454f12f6810cc38103cdb731503591a548a6169de003710e68479125785805",
+      "webpSha256": "fb93501feb27a2d60b28530dba2ae7671f093d5a94eb571adb3587dbf18aba09",
+      "pngBytes": 2236100,
+      "webpBytes": 307112,
+      "size": [
+        1536,
+        1024
+      ],
+      "prompt": "Technical sprite-sheet repair of the provided illustration of an ADULT WOMAN age23. Preserve the existing adult character identity, blonde hair, original outfit, garment colors, pose, shoes, accessories and the distinct facial expressions (proud smirk, light blush, deep blush) in original order. Recompose EXACTLY THREE complete full-body figures in one horizontal row on transparent alpha background. Make each entire figure only SIXTY PERCENT of canvas height; centered vertically with twenty percent transparent padding above and below. Every figure centered within its own equal-width column, with huge empty transparent gutters between figures. Absolutely no touching figures, no shared dress hems or wands, no cropped head, hair, hat, cape or shoes. Restore occluded garment edges as necessary. This is a layout and silhouette separation repair; retain high-definition anime illustration. No added people, no text, no labels, no grid, no floor, no background or shadows outside figures. Landscape 3:2 canvas, three equally spaced small figures. Maintaining the original overcrowded scale is a failure. Keep all fashion tasteful and fully clothed.",
+      "tool": "image_gen.imagegen (built-in)",
+      "editTarget": "src/assets/wardrobe-v3-witch.png"
+    }
+  ],
+  "notes": [
+    "Original v0.3 PNG and WebP files retained unmodified.",
+    "Six separated HD atlases replace the two initial outfits at runtime; all 24 outfits still have eight drawn expressions.",
+    "The cottage uses lossless WebP; character atlases use the existing user-approved quality=90 WebP exporter.",
+    "A rejected/cancelled editing batch was not used; only the listed successful, inspected outputs are adopted."
+  ]
+}

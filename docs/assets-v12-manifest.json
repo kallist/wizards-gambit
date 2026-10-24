@@ -1,0 +1,23 @@
+{
+  "version": "journey-v12",
+  "date": "2026-10-22",
+  "assets": [
+    {
+      "id": "pixel-tea-v12",
+      "transparent": true,
+      "tool": "image_gen.imagegen (built-in)",
+      "usage": "One atlas, three equal-width states: waiting, Harry offers tea, Draco offers tea; no full animation claim",
+      "independentAssets": 1,
+      "states": 3,
+      "promptSummary": "Transparent detailed warm pixel-art atlas with three equal square panels. The same visibly adult bespectacled dark-haired Harry and adult long-haired female Draco sit at a shared wooden tea table. Left panel idle; middle Harry offers a cup and Draco receives; right Draco offers a cup and Harry receives. Cozy green clothing, amber candle, two cups and a star coaster. No text or UI.",
+      "sourceRetained": true,
+      "png": "src/assets/pixel-tea-v12.png",
+      "pngBytes": 2080095,
+      "pngSha256": "ea1f1ab5444d0f25487d4ca57d2eb62e538b863ac6152d6635d25235e526efb8",
+      "webp": "src/assets/pixel-tea-v12.webp",
+      "webpBytes": 436496,
+      "webpSha256": "205225bd4bac34c613fec3492b91d10d934beb89173b7cffd3f7433fe642796d",
+      "size": [2172, 724]
+    }
+  ]
+}

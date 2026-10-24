@@ -1,0 +1,24 @@
+{
+  "version": "cozy-unified-v6",
+  "date": "2026-10-18",
+  "assets": [
+    {
+      "id": "pixel-cottage-v6",
+      "transparent": true,
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Edit the supplied transparent pixel-art cutaway cottage asset for our cozy romantic chess game. Preserve EXACTLY the canvas square, building silhouette and bounding box, isometric cutaway viewpoint, two floors, chimney at upper left, central large lower window, hearth at lower left, staircase at right, lower center chess table, the positions and sizes of the seated ADULT black-haired bespectacled man and ADULT long-haired blonde woman. She is female Draco Malfoy, fair skin, green silver casual wizard clothing, no child. Keep their faces recognizable as the same two adults. Improve the cottage into a lovingly lived-in romantic home: soft warm amber firelight and peach candle bounce light across wooden floors and faces, creamy cushions and wool knitted throws over the left armchair and over upstairs bed, plush deep green upholstery, muted rose/terracotta touches, two tiny steaming tea cups together near the chess table without hiding any chess piece, a small vase of pale flowers, folded blankets and books, warm fairy-light dots along the upstairs beam, houseplants and a soft patterned rug. Less muddy dark wood, clearer warm honey timber, soft luminous welcoming interior; outer slate roof and rock island remain darker cool blue for contrast. Keep handmade premium detailed pixel art with crisp coherent pixels, no photorealistic 3D. No text, no UI, no frame, no extra people, no extra buildings. Everything outside the complete cottage and its floating rocky base must remain genuinely transparent. Do not add stars or sky outside. This is an edit target, not a reference to be replaced with a differently composed scene.",
+      "editTarget": "src/assets/pixel-cottage-v4.png",
+      "usage": "Cozy pixel cottage with original table and character hotspot positions retained; animated overlays in HTML/CSS",
+      "png": "src/assets/pixel-cottage-v6.png",
+      "pngBytes": 2390070,
+      "pngSha256": "d5f31cb9ec16ef87927c825a7723235b8f6a9731b435a80189af109cb1813166",
+      "size": [
+        1254,
+        1254
+      ],
+      "webp": "src/assets/pixel-cottage-v6.webp",
+      "webpBytes": 443058,
+      "webpSha256": "e20bcf8902fb3f09d2333e7273d452a2b7b54a29c5da47e45b95aa88e8e9b13c"
+    }
+  ]
+}

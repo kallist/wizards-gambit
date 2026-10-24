@@ -1,0 +1,2179 @@
+{
+  "date": "2026-10-16",
+  "mode": "built-in",
+  "tool": "image_gen.imagegen",
+  "status": "GENERATED",
+  "approvedScope": {
+    "outfits": 24,
+    "expressions": 8,
+    "CG": 24,
+    "webpExport": "Explicit user approval; retain PNG sources",
+    "youth": "Skipped at user request"
+  },
+  "assets": [
+    {
+      "id": "college",
+      "name": "绿银学院",
+      "reward": false,
+      "file": "src/assets/wardrobe-v3-college.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Fitted emerald brocade waistcoat, white blouse, loosely tied green-silver tie, short black pleated skirt, black opaque tights, ankle boots, dark cape with emerald lining. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-college.png",
+        "pngSha256": "eb5e6b8f9e18a779a3c74a0b8e324d052e5039f27cdf256c9fc5edb278ab49c5",
+        "webp": "src/assets/wardrobe-v3-college.webp",
+        "webpSha256": "d20e6ece5e6a7432641958a620a486605ae0d3662ac7f6ac5e6c4060d523b1f5",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2661199,
+        "webpBytes": 399850
+      }
+    },
+    {
+      "id": "gala",
+      "name": "翡翠晚宴",
+      "reward": false,
+      "file": "src/assets/wardrobe-v3-gala.png",
+      "transparent": true,
+      "prompt": "Create a production game expression atlas, transparent background. Character reference ONLY: female Draco Malfoy, ADULT WOMAN AGE 23, platinum blonde long wavy hair, silver-green eyes, elegant mature anime face, small hoop earrings. Premium commercial anime visual novel illustration with fine linework, rich painted fabric and hair. Fully dressed adult fashion, natural proportions, graceful confident pose. Exactly two arms and two hands per figure: left hand at waist, right arm relaxed with wand downward. Outfit: An elegant emerald satin FLOOR-LENGTH evening gown with high collar and long sleeves, fitted tailored waist, refined gold embroidery and a small gold waist chain, closed skirt with no slit, matching heels.Exactly THREE equally wide vertical cells in one horizontal row, wide 3:2 image. SAME character, clothes, pose, body scale and lighting in all cells. Entire body hair to shoes visible, feet same baseline, figure centered in each third with transparent margins, no overlap between cells. LEFT proud teasing smirk; MIDDLE light pink embarrassed blush; RIGHT visibly deeper rosy cheeks with bashful averted eyes. No words, labels, lines, cell borders, UI, other people or background. ",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "attempts": [
+        {
+          "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Elegant off-shoulder emerald velvet evening gown with tasteful side slit, fitted waist, long opera gloves, black heels, silver pendant. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+          "status": "REJECTED_OUTPUT",
+          "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7b599883-b951-4fc2-838a-3dad7796071f. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        }
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-gala.png",
+        "pngSha256": "fb1372ec4f444031b386f5261519419698842db44bb278aacd5abca5417491a6",
+        "webp": "src/assets/wardrobe-v3-gala.webp",
+        "webpSha256": "9ab888f3894a59bd61f29c3a02adcf9e54f3c226744d7caa18947c2ae933be3f",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2661476,
+        "webpBytes": 435484
+      }
+    },
+    {
+      "id": "cream",
+      "name": "奶油冬日",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-cream.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Cream cable-knit turtleneck sweater, chocolate plaid knee-length pleated skirt, warm opaque tights, caramel ankle boots, soft cream beret. Cozy and cute. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-cream.png",
+        "pngSha256": "55f1a33a7435494a7dc18a5478ce3b064f264878ab7557c046905708fc27dea9",
+        "webp": "src/assets/wardrobe-v3-cream.webp",
+        "webpSha256": "548c1e7ecb3974b62b840ba823193267add2f89db2579211014f35e8d5bf1e24",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2412644,
+        "webpBytes": 397688
+      }
+    },
+    {
+      "id": "tea",
+      "name": "玫瑰茶会",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-tea.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Ivory puff-sleeve blouse, dusky rose knee-length pinafore tea dress, velvet bow at waist, lace-trim ankle socks, brown Mary Jane shoes, small ribbon hair clip. Refined sweet adult fashion. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-tea.png",
+        "pngSha256": "e946c8bdea2f838a0eca84b425816d8052f458007c7faae33d12252cb3a3a57d",
+        "webp": "src/assets/wardrobe-v3-tea.webp",
+        "webpSha256": "445195195b4979534c5091cfc8a00dac058f75f5fa2e425ba2e31be9c548273e",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2548699,
+        "webpBytes": 390192
+      }
+    },
+    {
+      "id": "date",
+      "name": "法式心事",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-date.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Burgundy cropped cardigan, cream square-neck fitted knee-length dress with tiny floral embroidery, dark hair ribbon, low heeled pumps. Soft romantic elegant fashion. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-date.png",
+        "pngSha256": "b59b508256dbd021507e9915b54cfc822fae09be9d9910eeb616a9b130e8d23b",
+        "webp": "src/assets/wardrobe-v3-date.webp",
+        "webpSha256": "e31ce982dc83f334a78631dbf1dd462fd378dc26ef9b34127b860e6c1f20fb2b",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2145567,
+        "webpBytes": 297206
+      }
+    },
+    {
+      "id": "travel",
+      "name": "轻旅晴天",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-travel.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Pastel sage oversized zip jacket, white T-shirt, navy tailored shorts, opaque ankle socks and white sneakers, small crossbody satchel. Playful sporty adult woman. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-travel.png",
+        "pngSha256": "a08985f6273d7649569eea2ce8d42c8a5888da7aa291632e2a12fa1b130e6356",
+        "webp": "src/assets/wardrobe-v3-travel.webp",
+        "webpSha256": "2443cc52b99cb45eb4d9174398b3063c9f7eb3c0a9206315a1be7aae6c0ce5b5",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2264595,
+        "webpBytes": 338066
+      }
+    },
+    {
+      "id": "summer",
+      "name": "湖畔花信",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-summer.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Pale blue floral off-shoulder summer midi dress with subtle waist shaping, straw hat held at hip, tan flat sandals. Elegant adult summer fashion. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-summer.png",
+        "pngSha256": "a526e67bacac011319dbe6842ff5afc3551794647b6c17e90786264cb6d541d7",
+        "webp": "src/assets/wardrobe-v3-summer.webp",
+        "webpSha256": "f8481bc7ad77ea142a8c7e9f2e29a03cf663b5761947b2d7c75322acce35bb45",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2665747,
+        "webpBytes": 427910
+      }
+    },
+    {
+      "id": "scholar",
+      "name": "书页与星",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-scholar.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Ivory long-sleeve blouse tucked into charcoal high-waisted wide-leg trousers, dark green long tailored coat draped over shoulders, small spectacles, oxford shoes. Intellectual adult elegance. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-scholar.png",
+        "pngSha256": "f6e741de1dc07f033558833e89021427ffceeaf3392cb4c50779891f04a29111",
+        "webp": "src/assets/wardrobe-v3-scholar.webp",
+        "webpSha256": "13a9ab42343ec03214bf00e8490f0f3b361f64938d70309e12d90dd19c7d8f02",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2542293,
+        "webpBytes": 372292
+      }
+    },
+    {
+      "id": "rider",
+      "name": "英伦骑装",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-rider.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Fitted forest-green riding jacket with gold buttons, cream breeches, black knee-high riding boots, dark leather gloves, slim neck scarf. Confident adult equestrian style. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-rider.png",
+        "pngSha256": "800f2fd24852c9bf22a200dfdc42f1fe0785b601e6604b8e7086f7debff7b206",
+        "webp": "src/assets/wardrobe-v3-rider.webp",
+        "webpSha256": "aadff05f8719a37f596d1183e760312b6438437d8a882042cfb8b15da9d749ce",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2346034,
+        "webpBytes": 343130
+      }
+    },
+    {
+      "id": "detective",
+      "name": "雨夜侦探",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-detective.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Taupe long trench coat open over charcoal waistcoat and white blouse, green bow tie, knee-length navy skirt, brown lace-up boots. Elegant detective outfit. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-detective.png",
+        "pngSha256": "a200133eb84dd037430629cbab3bcf3100eb24cca7df7ddcaa95398ac4c5a833",
+        "webp": "src/assets/wardrobe-v3-detective.webp",
+        "webpSha256": "8ab89fb8a086bad7f61d7b9ca31f3a48911a382ce66a4ddbf8527d07eda8fd8e",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2577705,
+        "webpBytes": 410180
+      }
+    },
+    {
+      "id": "witch",
+      "name": "黑金魔女",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-witch.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Wide-brim black witch hat with antique gold ornaments, fitted black-gold brocade jacket, layered asymmetrical knee-length skirt, dark opaque tights, heeled boots, small shoulder cape. Sophisticated adult witch. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-witch.png",
+        "pngSha256": "e2a5b9fadea7c74ee29e117f5fe41ce26cc5752b7bc2b9e372101fbb3c46a0ec",
+        "webp": "src/assets/wardrobe-v3-witch.webp",
+        "webpSha256": "852d3afdc33c5359203698b153a37e8ef95df575a9ff55f388ad2a15cbd9a394",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2665714,
+        "webpBytes": 421802
+      }
+    },
+    {
+      "id": "moon",
+      "name": "月光银缎",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-moon.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Opaque silver satin floor-length evening gown, elegant fitted silhouette with modest neckline, tasteful side slit, crystal earrings, silver heels, pale shawl. Mature glamorous fashion. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-moon.png",
+        "pngSha256": "f6adfc99589db113340aa08b577d5c4ca523b3bdf6f2086d94f597f334f823a3",
+        "webp": "src/assets/wardrobe-v3-moon.webp",
+        "webpSha256": "7da8e8b12d7a371e51c2efe8020076909fa5f71c6e9f7682131c839d663bbdf6",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2594815,
+        "webpBytes": 431428
+      }
+    },
+    {
+      "id": "swan",
+      "name": "黑天鹅",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-swan.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Black fitted evening dress with subtle black feather shoulder ornament, layered sheer outer skirt over fully opaque knee-length lining, long black gloves and heels. Elegant adult dark ballet-inspired formal fashion, not dancewear. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-swan.png",
+        "pngSha256": "cefce8f92f90bee760cddf86e38fc3fe6c80a8af485652ed0cff76540ff65d2d",
+        "webp": "src/assets/wardrobe-v3-swan.webp",
+        "webpSha256": "960cc86a7ed071afed0c8b61a10fb853516ed70d9b841e7d17a6296c165021b1",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2755531,
+        "webpBytes": 454608
+      }
+    },
+    {
+      "id": "magnolia",
+      "name": "玉兰夜语",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-magnolia.png",
+      "transparent": true,
+      "prompt": "Create a production game expression atlas, transparent background. Character reference ONLY: female Draco Malfoy, ADULT WOMAN AGE 23, platinum blonde long wavy hair, silver-green eyes, elegant mature anime face, small hoop earrings. Premium commercial anime visual novel illustration with fine linework, rich painted fabric and hair. Fully dressed adult fashion, natural proportions, graceful confident pose. Exactly two arms and two hands per figure: left hand at waist, right arm relaxed with wand downward. Outfit: A traditional emerald high-collar qipao, opaque silk with ivory magnolia embroidery, elbow-length sleeves, mid-calf hem and a small walking vent below the knees, ivory shawl, jade earrings and low heels.Exactly THREE equally wide vertical cells in one horizontal row, wide 3:2 image. SAME character, clothes, pose, body scale and lighting in all cells. Entire body hair to shoes visible, feet same baseline, figure centered in each third with transparent margins, no overlap between cells. LEFT proud teasing smirk; MIDDLE light pink embarrassed blush; RIGHT visibly deeper rosy cheeks with bashful averted eyes. No words, labels, lines, cell borders, UI, other people or background. ",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "attempts": [
+        {
+          "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Emerald high-collar silk qipao with ivory magnolia embroidery, elegant fitted waist and tasteful side slit, cream shawl, jade earrings and elegant heels. Mature formal fashion. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+          "status": "REJECTED_OUTPUT",
+          "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID afb06779-d738-4903-9dc4-b0490c74878e. safety_violations=[sexual].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"sexual\\\"\\n      ]\\n    }\\n  }\\n}\")"
+        }
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-magnolia.png",
+        "pngSha256": "85fecc8a78d185326be3263c05013d171c76356df64b0be75cea21d76749ea4b",
+        "webp": "src/assets/wardrobe-v3-magnolia.webp",
+        "webpSha256": "a913d29665a815f6224cafa94528a0f48e52e76f6ef4ac96514df5fe1b304af3",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2644590,
+        "webpBytes": 447206
+      }
+    },
+    {
+      "id": "christmas",
+      "name": "雪夜圣诞",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-christmas.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Burgundy velvet knee-length dress with white faux-fur hem, short ivory fur-trim cape, dark opaque tights, warm lace-up winter boots, ribbon hair ornament. Cozy festive adult outfit. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-christmas.png",
+        "pngSha256": "111035fede9222e66a73987ca868f4108a272c345b256ec2f35c3b3f3e9f2dfa",
+        "webp": "src/assets/wardrobe-v3-christmas.webp",
+        "webpSha256": "8bf27f6d9538eb2b4c14a7b8dd5e4c8a2f73d733ea670ef41a3843a9df899ff3",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2524110,
+        "webpBytes": 388862
+      }
+    },
+    {
+      "id": "prince",
+      "name": "白金贵族",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-prince.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: White and antique-gold tailored tailcoat, ivory waistcoat, jade cravat pin, fitted dark trousers, polished ankle boots, formal gloves. Charming androgynous aristocratic adult fashion. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-prince.png",
+        "pngSha256": "4b8837989d34d44f7f766f75beadcdfeab36002c1644628681501e8808521c5e",
+        "webp": "src/assets/wardrobe-v3-prince.webp",
+        "webpSha256": "8e8943a56260c97d6ab934bce376a460e5b08c4d8faf281e19ce70b542140bd7",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2746096,
+        "webpBytes": 460240
+      }
+    },
+    {
+      "id": "maid",
+      "name": "咖啡时光",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-maid.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Elegant black knee-length long-sleeved cafe dress, white lace apron with bow at back, ruffled white collar, black opaque tights, black Mary Jane shoes, small lace hairband. Cute refined fully clothed adult cafe maid. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-maid.png",
+        "pngSha256": "c8269f1229532a7b92f000cfe7304b9208a26bd6d0077016b292f94a273f8f4d",
+        "webp": "src/assets/wardrobe-v3-maid.webp",
+        "webpSha256": "7d56155493843fa45a0c30e33c658f451177515e56fb2f95c14584440cf58f5d",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2326556,
+        "webpBytes": 350684
+      }
+    },
+    {
+      "id": "stars",
+      "name": "星辰舞会",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-stars.png",
+      "transparent": true,
+      "prompt": "Use case: stylized-concept. Asset: exactly THREE-frame transparent full-body expression sprite strip for a game. Reference image is ADULT CHARACTER IDENTITY only, not outfit or pose. ONE identical female Draco Malfoy ADULT AGE 23 repeated exactly three times, platinum blonde long wavy hair, silver-green anime eyes, small hoop earrings, unmistakably mature adult face and naturally curvy adult figure. Premium commercial Japanese anime otome game illustration, clean graceful ink contours and exquisite painted fabrics/hair; clearly anime, NOT photorealism, NOT a 3D doll. Entire character from hair to both shoes, identical body proportions, same garment, SAME relaxed three-quarter pose and scale in all three frames. Left hand naturally resting on waist, right arm relaxed downward holding a slender wand; exactly TWO arms and TWO hands per figure, natural five fingers, no crossed arms, no extra hands. Outfit: Midnight-blue fitted evening ball gown embroidered with tiny silver constellations, flowing layered skirt, refined sweetheart neckline, sheer decorative outer shawl over opaque gown, silver heels. Exquisite adult formalwear. Layout: wide 3:2 image, exactly THREE equally wide vertical cells in a single horizontal row, each figure centered inside its own cell with clear transparent margin and no overlap across thirds. Feet at same baseline and all hair, hats, coats and shoes fully inside each cell. Left cell: proud tsundere expression, raised eyebrow, teasing closed-mouth smirk, no blush. Middle cell: visibly light pink blush, softened eyes and embarrassed small smile. Right cell: clearly deep rosy cheeks, bashful averted eyes, flustered cute pout, still mature adult. Facial emotions must visibly differ, not just a global tint. Keep body, outfit and lighting consistent. Soft warm/cool game-illustration light. Genuinely transparent background, NO background scenery, no floor, no shadows outside figure, NO text, labels, cell borders, symbols, UI, extra people, sexual acts, nudity or exposed underwear.",
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "output": {
+        "png": "src/assets/wardrobe-v3-stars.png",
+        "pngSha256": "877ddaf38c3d38a27a95cf6a3ea4ae7b4e6d386948ba324d313014a285a53eef",
+        "webp": "src/assets/wardrobe-v3-stars.webp",
+        "webpSha256": "de6577776a181492999682ee9fa82da03e3b0cde8eef5779638004c5e4bc0e7c",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2838477,
+        "webpBytes": 500368
+      }
+    },
+    {
+      "id": "cocktail",
+      "name": "午夜蔷薇",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-cocktail.png",
+      "transparent": true,
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "prompt": "Create a production game expression atlas, transparent background. Character reference ONLY: female Draco Malfoy, ADULT WOMAN AGE 23, platinum blonde long wavy hair, silver-green eyes, elegant mature anime face, small hoop earrings. Premium commercial anime visual novel illustration with fine linework, rich painted fabric and hair. Fully dressed adult fashion, natural proportions, graceful confident pose. Exactly two arms and two hands per figure: left hand at waist, right arm relaxed with wand downward. Outfit: Black velvet off-shoulder cocktail dress with fitted tailoring, opaque fabric, elegant above-knee hem, small ruby pendant, black tights and heeled pumps. Refined adult evening fashion.Exactly THREE equally wide vertical cells in one horizontal row, wide 3:2 image. SAME character, clothes, pose, body scale and lighting in all cells. Entire body hair to shoes visible, feet same baseline, figure centered in each third with transparent margins, no overlap between cells. LEFT proud teasing smirk; MIDDLE light pink embarrassed blush; RIGHT visibly deeper rosy cheeks with bashful averted eyes. No words, labels, lines, cell borders, UI, other people or background. ",
+      "output": {
+        "png": "src/assets/wardrobe-v3-cocktail.png",
+        "pngSha256": "b6c477c573e0b43ed2fc668cf0779683aebbc89084c27e46c4ea6ca0763588ba",
+        "webp": "src/assets/wardrobe-v3-cocktail.webp",
+        "webpSha256": "d9018754d271e298ebac4bf07fb4091709b3b483f680298c793f86ba6efa5ee4",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2146293,
+        "webpBytes": 309596
+      }
+    },
+    {
+      "id": "leather",
+      "name": "黑曜街角",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-leather.png",
+      "transparent": true,
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "prompt": "Create a production game expression atlas, transparent background. Character reference ONLY: female Draco Malfoy, ADULT WOMAN AGE 23, platinum blonde long wavy hair, silver-green eyes, elegant mature anime face, small hoop earrings. Premium commercial anime visual novel illustration with fine linework, rich painted fabric and hair. Fully dressed adult fashion, natural proportions, graceful confident pose. Exactly two arms and two hands per figure: left hand at waist, right arm relaxed with wand downward. Outfit: Cropped black leather jacket over a fully opaque ivory fitted top, high-waisted black knee-length skirt with a narrow belt, opaque tights and black ankle boots. Adult modern elegant street fashion.Exactly THREE equally wide vertical cells in one horizontal row, wide 3:2 image. SAME character, clothes, pose, body scale and lighting in all cells. Entire body hair to shoes visible, feet same baseline, figure centered in each third with transparent margins, no overlap between cells. LEFT proud teasing smirk; MIDDLE light pink embarrassed blush; RIGHT visibly deeper rosy cheeks with bashful averted eyes. No words, labels, lines, cell borders, UI, other people or background. ",
+      "output": {
+        "png": "src/assets/wardrobe-v3-leather.png",
+        "pngSha256": "ed1c0a03b227c43cfdda61a9d7795300702cadab98ff9104a5d848ba989847c4",
+        "webp": "src/assets/wardrobe-v3-leather.webp",
+        "webpSha256": "a06642321cd6f78df9969059d0367424087396d20ddd70e93c40d66a08d03c9b",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2064904,
+        "webpBytes": 289576
+      }
+    },
+    {
+      "id": "tailor",
+      "name": "偏爱正装",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-tailor.png",
+      "transparent": true,
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "prompt": "Create a production game expression atlas, transparent background. Character reference ONLY: female Draco Malfoy, ADULT WOMAN AGE 23, platinum blonde long wavy hair, silver-green eyes, elegant mature anime face, small hoop earrings. Premium commercial anime visual novel illustration with fine linework, rich painted fabric and hair. Fully dressed adult fashion, natural proportions, graceful confident pose. Exactly two arms and two hands per figure: left hand at waist, right arm relaxed with wand downward. Outfit: Buttoned white blouse, finely fitted dark emerald waistcoat, charcoal knee-length pencil skirt, black opaque stockings, elegant heels and small gold jewelry. Mature tailored formal fashion.Exactly THREE equally wide vertical cells in one horizontal row, wide 3:2 image. SAME character, clothes, pose, body scale and lighting in all cells. Entire body hair to shoes visible, feet same baseline, figure centered in each third with transparent margins, no overlap between cells. LEFT proud teasing smirk; MIDDLE light pink embarrassed blush; RIGHT visibly deeper rosy cheeks with bashful averted eyes. No words, labels, lines, cell borders, UI, other people or background. ",
+      "output": {
+        "png": "src/assets/wardrobe-v3-tailor.png",
+        "pngSha256": "fd3b48f485cc5064c8bbc437b8d35cb1f735d1c26f80d6fd2c441a8085328b87",
+        "webp": "src/assets/wardrobe-v3-tailor.webp",
+        "webpSha256": "3a03607273eefd5f0a7129fa5e35dd6cdda68b935e3bdf06b356536e98515fd5",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2148721,
+        "webpBytes": 308058
+      }
+    },
+    {
+      "id": "violet",
+      "name": "紫夜骑士",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-violet.png",
+      "transparent": true,
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "prompt": "Create a production game expression atlas, transparent background. Character reference ONLY: female Draco Malfoy, ADULT WOMAN AGE 23, platinum blonde long wavy hair, silver-green eyes, elegant mature anime face, small hoop earrings. Premium commercial anime visual novel illustration with fine linework, rich painted fabric and hair. Fully dressed adult fashion, natural proportions, graceful confident pose. Exactly two arms and two hands per figure: left hand at waist, right arm relaxed with wand downward. Outfit: Deep violet fitted long-sleeve fantasy riding coat over a fully opaque high-collar dark outfit and fitted trousers, silver seam ornaments and knee-high boots, small cape. Fully dressed adult fantasy adventurer.Exactly THREE equally wide vertical cells in one horizontal row, wide 3:2 image. SAME character, clothes, pose, body scale and lighting in all cells. Entire body hair to shoes visible, feet same baseline, figure centered in each third with transparent margins, no overlap between cells. LEFT proud teasing smirk; MIDDLE light pink embarrassed blush; RIGHT visibly deeper rosy cheeks with bashful averted eyes. No words, labels, lines, cell borders, UI, other people or background. ",
+      "output": {
+        "png": "src/assets/wardrobe-v3-violet.png",
+        "pngSha256": "3da04f288aef68bbac78b1558ba5927f1ed25b48159a80020d8f8deb481b28bf",
+        "webp": "src/assets/wardrobe-v3-violet.webp",
+        "webpSha256": "d1d5474b901df89bca91360efa8fba7781aa9376f468d394fd48cc7b9e97e142",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2547893,
+        "webpBytes": 380896
+      }
+    },
+    {
+      "id": "champagne",
+      "name": "香槟余温",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-champagne.png",
+      "transparent": true,
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "prompt": "Create a production game expression atlas, transparent background. Character reference ONLY: female Draco Malfoy, ADULT WOMAN AGE 23, platinum blonde long wavy hair, silver-green eyes, elegant mature anime face, small hoop earrings. Premium commercial anime visual novel illustration with fine linework, rich painted fabric and hair. Fully dressed adult fashion, natural proportions, graceful confident pose. Exactly two arms and two hands per figure: left hand at waist, right arm relaxed with wand downward. Outfit: Champagne-gold silk halter-neck calf-length evening dress, elegant fitted waist and flowing skirt, translucent decorative shawl over fully opaque dress, pearl earrings and gold heels. Sophisticated adult fashion.Exactly THREE equally wide vertical cells in one horizontal row, wide 3:2 image. SAME character, clothes, pose, body scale and lighting in all cells. Entire body hair to shoes visible, feet same baseline, figure centered in each third with transparent margins, no overlap between cells. LEFT proud teasing smirk; MIDDLE light pink embarrassed blush; RIGHT visibly deeper rosy cheeks with bashful averted eyes. No words, labels, lines, cell borders, UI, other people or background. ",
+      "output": {
+        "png": "src/assets/wardrobe-v3-champagne.png",
+        "pngSha256": "f4f21a1d34d414a175ead6710108415a1b1cd3c7ef8d38967fc93990d307f32e",
+        "webp": "src/assets/wardrobe-v3-champagne.webp",
+        "webpSha256": "a8e0927744ed671320660da37202d3557dc3654629ab786009b6d40cab658d16",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2819902,
+        "webpBytes": 484578
+      }
+    },
+    {
+      "id": "ruby",
+      "name": "赤红宣言",
+      "reward": true,
+      "file": "src/assets/wardrobe-v3-ruby.png",
+      "transparent": true,
+      "references": [
+        "src/assets/malfoy-v2-proud-fixed.png"
+      ],
+      "prompt": "Create a production game expression atlas, transparent background. Character reference ONLY: female Draco Malfoy, ADULT WOMAN AGE 23, platinum blonde long wavy hair, silver-green eyes, elegant mature anime face, small hoop earrings. Premium commercial anime visual novel illustration with fine linework, rich painted fabric and hair. Fully dressed adult fashion, natural proportions, graceful confident pose. Exactly two arms and two hands per figure: left hand at waist, right arm relaxed with wand downward. Outfit: Scarlet fitted floor-length formal evening dress with long sleeves and a refined square neckline, antique gold waist ornament, flowing short cape and black heels. Luxurious mature fashion.Exactly THREE equally wide vertical cells in one horizontal row, wide 3:2 image. SAME character, clothes, pose, body scale and lighting in all cells. Entire body hair to shoes visible, feet same baseline, figure centered in each third with transparent margins, no overlap between cells. LEFT proud teasing smirk; MIDDLE light pink embarrassed blush; RIGHT visibly deeper rosy cheeks with bashful averted eyes. No words, labels, lines, cell borders, UI, other people or background. ",
+      "output": {
+        "png": "src/assets/wardrobe-v3-ruby.png",
+        "pngSha256": "3883bfd637e87b305886e50255cf17b4abbc59cadaf1842fb244a9374f6c6378",
+        "webp": "src/assets/wardrobe-v3-ruby.webp",
+        "webpSha256": "cdbd29d3e53a60d9c5f6fa2a8c293823ead8f15764b25037647e2f30e2eb3645",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2367566,
+        "webpBytes": 332496
+      }
+    },
+    {
+      "id": "dorm-keyart",
+      "name": "冬夜套间",
+      "file": "src/assets/dorm-v3.png",
+      "transparent": false,
+      "references": [],
+      "prompt": "Use case: stylized-concept. Premium indie fantasy chess game environment key art, cinematic wide 16:9, richly painted high detail. A luxurious ADULT Hogwarts-inspired winter accommodation suite, intimate human-scale round Gothic dormitory with four-poster carved walnut bed and deep burgundy embroidered canopy curtains in rear-left, thick ivory duvet and pillows, ornate stone fireplace with warm embers at rear-right, red velvet sofa and cushions, layered Persian-style burgundy and antique gold rug, dark polished wood plank floor, densely furnished walnut bookcases with uneven old books, bedside drawers, writing desk under a tall pointed leaded-glass window with snowy moonlit courtyard outside, leather trunk, old brass gramophone, candle candelabra, porcelain tea service, framed enchanted paintings, folded scarf, brass telescope and celestial globe. Center-left has a magnificent chess table with carved stone chess armies; right side has an elegant antique tall Gothic full-length mirror with dark blank reflective glass, slender gold tracery. NO PEOPLE. Material-rich, ornate but tasteful, warm walnut/ruby/antique gold with blue moonlight, layered foreground/midground/background, atmospheric lighting and luxurious fabrics, no giant empty column hall, no neon green fog, no text, no UI, no watermarks. Left upper area calmer and dark enough for menu text.",
+      "output": {
+        "png": "src/assets/dorm-v3.png",
+        "pngSha256": "95234883b069b62c9c8c65c8822e75529d5729ef6bd6eca9676dbb99f00fe34e",
+        "webp": "src/assets/dorm-v3.webp",
+        "webpSha256": "4d118ace5dd50037a93cdf8b67bd9fc744eed16746086a4545586a77a1501d81",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2967915,
+        "webpBytes": 504442
+      }
+    },
+    {
+      "id": "material-atlas",
+      "name": "套间材质图",
+      "file": "src/assets/dorm-materials-v3.png",
+      "transparent": false,
+      "references": [],
+      "prompt": "Use case: stylized-concept. Game material ATLAS, square image, exactly FOUR equal square quadrants, no borders, labels or text, flat evenly lit orthographic surface, no objects and no perspective. TOP LEFT: weathered rich warm gray-beige medieval rectangular stone blocks with dark thin recessed mortar, subtle stone grain, chipped edges and varied realistic roughness. TOP RIGHT: dark honey walnut long narrow wooden planks with flowing fine grain, warm brown variation and subtle polished patina, straight plank seams. BOTTOM LEFT: luxurious burgundy velvet jacquard fabric with tiny antique gold botanical diamond motifs, subtle fine weave, flat not draped, elegant deep red. BOTTOM RIGHT: antique ivory and dusty ruby Persian-style ornate floral rug textile with rich small interlaced floral pattern across whole tile, no outer frame, detailed woven wool. High-quality PBR-like ALBEDO atlas for 3D room surfaces, not cartoon flat colors. All four surfaces completely fill their square to edges, balanced exposure, no baked directional shadows, no glossy glare.",
+      "output": {
+        "png": "src/assets/dorm-materials-v3.png",
+        "pngSha256": "087d8721d11c41b9881295062fd8bfabe1aa0b5339aca2b7a8680688895052ae",
+        "webp": "src/assets/dorm-materials-v3.webp",
+        "webpSha256": "1af269ae513eb04ffd4bdf64a95d5fa5f025691442b5c52c397cc39a5ac81f70",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 3807594,
+        "webpBytes": 646232
+      }
+    },
+    {
+      "id": "youth-memory",
+      "name": "返龄咒事故",
+      "file": "src/assets/malfoy-youth-v3.png",
+      "transparent": true,
+      "references": [],
+      "prompt": "Use case: illustration-story. ONE wholesome nonsexual anime fantasy character portrait, full body, genuinely transparent background. A female young Draco Malfoy transformed by a de-aging spell, visibly a teenager AGE 15, platinum blonde hair in a simple loose braid, green eyes, a startled indignant proud expression, holding a heavy schoolbook with BOTH hands in front of chest. Completely modest loose ankle-length dark school wizard robe with long sleeves, full buttoned white shirt collar and green-silver necktie, gray loose trousers visible below robe and flat brown shoes. Ordinary straight standing pose, realistic teen proportions, no emphasized curves, no glamour pose, no makeup styling, no revealing clothing, no romance context or other people. Sweet fantasy-school comedy illustration, clean anime ink and painterly shading, hair to both flat shoes completely visible, no text, no labels, no UI, no scenery, no border. Exactly two arms and two hands with natural fingers.",
+      "status": "SKIPPED_USER_REQUEST",
+      "reason": "Excluded from confirmed adult v0.3 scope at user request"
+    },
+    {
+      "id": "college-expressions-b",
+      "name": "绿银学院表情b",
+      "file": "src/assets/wardrobe-v3-college-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "college",
+      "references": [
+        "src/assets/wardrobe-v3-college.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-college-expressions-b.png",
+        "pngSha256": "17083ae08d942e4cf078599ef49f08125373f255bfb1ec16c40adb2be9153d1c",
+        "webp": "src/assets/wardrobe-v3-college-expressions-b.webp",
+        "webpSha256": "ca74c8f2051fada8075b6df44dc1ed8a4bd8fc0577362707d71aeccec7c1c8bf",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2614822,
+        "webpBytes": 388498
+      }
+    },
+    {
+      "id": "college-expressions-c",
+      "name": "绿银学院表情c",
+      "file": "src/assets/wardrobe-v3-college-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "college",
+      "references": [
+        "src/assets/wardrobe-v3-college.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-college-expressions-c.png",
+        "pngSha256": "7db183184afa2df7597bf37b19b553107fecfa1c958a31b70bd8c121d18a7851",
+        "webp": "src/assets/wardrobe-v3-college-expressions-c.webp",
+        "webpSha256": "00f91d60e0409edb6b1252b7b6d65f2d4c0f5812ac57e6d8aedd50eb04a544df",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2274440,
+        "webpBytes": 378070
+      }
+    },
+    {
+      "id": "cg-college",
+      "name": "绿银学院番外CG",
+      "file": "src/assets/outfit-cg-v3-college.png",
+      "transparent": false,
+      "sourceOutfit": "college",
+      "references": [
+        "src/assets/wardrobe-v3-college.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In the warm luxurious dormitory chess suite after a game, Harry gently offers his hand as she stands beside the chess table, teasing him with a knight; tender eye contact. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-college.png",
+        "pngSha256": "f75b1511b14064826e1e66ffaee0493663e6033c88727bde0acc570095533216",
+        "webp": "src/assets/outfit-cg-v3-college.webp",
+        "webpSha256": "8cce3c7cfc5f92905d6248ee2bde746ece2d245972d37421b2b7ee78f4398314",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2630812,
+        "webpBytes": 374902
+      }
+    },
+    {
+      "id": "gala-expressions-b",
+      "name": "翡翠晚宴表情b",
+      "file": "src/assets/wardrobe-v3-gala-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "gala",
+      "references": [
+        "src/assets/wardrobe-v3-gala.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-gala-expressions-b.png",
+        "pngSha256": "238d091e4575bc77c51deb350997cdb4b6c4e969c935a1b9221b338d00c2ae0e",
+        "webp": "src/assets/wardrobe-v3-gala-expressions-b.webp",
+        "webpSha256": "1170f1c355f447e8f6c101da5db4cc0b0e771e31f36ec49c821235e17ac5be82",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2556089,
+        "webpBytes": 385920
+      }
+    },
+    {
+      "id": "gala-expressions-c",
+      "name": "翡翠晚宴表情c",
+      "file": "src/assets/wardrobe-v3-gala-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "gala",
+      "references": [
+        "src/assets/wardrobe-v3-gala.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-gala-expressions-c.png",
+        "pngSha256": "9729f25bc933626d0f41259667df58842ed3d0d1a8f54cb36f97d5a8ebc46a25",
+        "webp": "src/assets/wardrobe-v3-gala-expressions-c.webp",
+        "webpSha256": "e8d5872d5a4172d569479e7012de87c1207dac369054fd97b03cbb944c1071c1",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2301238,
+        "webpBytes": 422158
+      }
+    },
+    {
+      "id": "cg-gala",
+      "name": "翡翠晚宴番外CG",
+      "file": "src/assets/outfit-cg-v3-gala.png",
+      "transparent": false,
+      "sourceOutfit": "gala",
+      "references": [
+        "src/assets/wardrobe-v3-gala.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: At a candlelit winter ball balcony, Harry carefully drapes a warm shawl over her shoulders, their hands meet at the clasp, a sweet shy smile. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-gala.png",
+        "pngSha256": "c7f299158796e126d0edde146d0ff5208737522cb463863a603f7369ced9fedf",
+        "webp": "src/assets/outfit-cg-v3-gala.webp",
+        "webpSha256": "1362659822f95589525fcb6293aea084c6414aaae9c9955f7027b0348ad6ba8e",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 3043915,
+        "webpBytes": 472586
+      }
+    },
+    {
+      "id": "cream-expressions-b",
+      "name": "奶油冬日表情b",
+      "file": "src/assets/wardrobe-v3-cream-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "cream",
+      "references": [
+        "src/assets/wardrobe-v3-cream.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-cream-expressions-b.png",
+        "pngSha256": "4e17656bf1770c26a1a25badf6b7ffd50a86ed45786845c81f7c712048f51a34",
+        "webp": "src/assets/wardrobe-v3-cream-expressions-b.webp",
+        "webpSha256": "b33c5f269e3f2540bf946579576474fe4bde5f908ca1e9b9500f9d21e93d2c8d",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2350391,
+        "webpBytes": 343478
+      }
+    },
+    {
+      "id": "cream-expressions-c",
+      "name": "奶油冬日表情c",
+      "file": "src/assets/wardrobe-v3-cream-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "cream",
+      "references": [
+        "src/assets/wardrobe-v3-cream.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-cream-expressions-c.png",
+        "pngSha256": "784a6032bf9d99da57b7354bbaaef439e96b26cc5a9605c166dc3663b360bbbc",
+        "webp": "src/assets/wardrobe-v3-cream-expressions-c.webp",
+        "webpSha256": "0bec505b51b59725f846e8234bf83c5f7ba7cad025609affee44d87d41130422",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1835380,
+        "webpBytes": 395214
+      }
+    },
+    {
+      "id": "cg-cream",
+      "name": "奶油冬日番外CG",
+      "file": "src/assets/outfit-cg-v3-cream.png",
+      "transparent": false,
+      "sourceOutfit": "cream",
+      "references": [
+        "src/assets/wardrobe-v3-cream.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: On a snowy Hogwarts village street at dusk, Harry wraps one end of a cream scarf around her while she holds two warm cocoa cups. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-cream.png",
+        "pngSha256": "b5f36b3ff3c6416642ee2dddc45877357b4df426148f5ed5f304fa61d7c728a1",
+        "webp": "src/assets/outfit-cg-v3-cream.webp",
+        "webpSha256": "bca946f255873d15f7288464a289fb564c443c830587868fa34e0b52fcc41786",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 3051038,
+        "webpBytes": 472600
+      }
+    },
+    {
+      "id": "tea-expressions-b",
+      "name": "玫瑰茶会表情b",
+      "file": "src/assets/wardrobe-v3-tea-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "tea",
+      "references": [
+        "src/assets/wardrobe-v3-tea.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-tea-expressions-b.png",
+        "pngSha256": "3cd7227ed3f2c05766f84e78f17a1f9a3956ef3d651ad6f71d4addc198182d37",
+        "webp": "src/assets/wardrobe-v3-tea-expressions-b.webp",
+        "webpSha256": "e2c81e6b58ccf615c6e7b3c2c6ea0bc0657affaac173b2bf0b288a5c53d8b3be",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2458919,
+        "webpBytes": 366208
+      }
+    },
+    {
+      "id": "tea-expressions-c",
+      "name": "玫瑰茶会表情c",
+      "file": "src/assets/wardrobe-v3-tea-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "tea",
+      "references": [
+        "src/assets/wardrobe-v3-tea.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-tea-expressions-c.png",
+        "pngSha256": "f15193f930db2f8eff38041278dd837e5e25c7054df754bd00073396633b4937",
+        "webp": "src/assets/wardrobe-v3-tea-expressions-c.webp",
+        "webpSha256": "b9ab65303a3296bd338c94ee12a068e1dd144bfa85ed6ebe1148c73ec9369b83",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1993937,
+        "webpBytes": 408956
+      }
+    },
+    {
+      "id": "cg-tea",
+      "name": "玫瑰茶会番外CG",
+      "file": "src/assets/outfit-cg-v3-tea.png",
+      "transparent": false,
+      "sourceOutfit": "tea",
+      "references": [
+        "src/assets/wardrobe-v3-tea.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In a sunlit antique tea salon, she leans slightly toward Harry across a delicate rose tea service and offers him a small pastry, both smiling shyly. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-tea.png",
+        "pngSha256": "a75989c6aa3703885b59e0032f3e8ba0dff81ae26ce4de1a93873fa56719053b",
+        "webp": "src/assets/outfit-cg-v3-tea.webp",
+        "webpSha256": "26d768e58234f701b45f3f01fcccd2623c38885dd1b4e610af679c9535790fa2",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2946301,
+        "webpBytes": 453518
+      }
+    },
+    {
+      "id": "date-expressions-b",
+      "name": "法式心事表情b",
+      "file": "src/assets/wardrobe-v3-date-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "date",
+      "references": [
+        "src/assets/wardrobe-v3-date.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-date-expressions-b.png",
+        "pngSha256": "f9f71e482097ba17d8807f9bf577591a2bf6143f02ecc240cf75fc0321dcddd8",
+        "webp": "src/assets/wardrobe-v3-date-expressions-b.webp",
+        "webpSha256": "3de92aa642d7def1e9ba0c4733643a9a6d0ac7523a26463b1fe6f9499ad9a0ee",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2137401,
+        "webpBytes": 296782
+      }
+    },
+    {
+      "id": "date-expressions-c",
+      "name": "法式心事表情c",
+      "file": "src/assets/wardrobe-v3-date-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "date",
+      "references": [
+        "src/assets/wardrobe-v3-date.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-date-expressions-c.png",
+        "pngSha256": "5316b811f44fb6fd0de95ed669740005e5378223917e36f459c02d4fb2388110",
+        "webp": "src/assets/wardrobe-v3-date-expressions-c.webp",
+        "webpSha256": "8dd43cf45f0b6653f1c81023a91554d93e80e5f1f3f176c3b0fa1f711673ec5c",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1449306,
+        "webpBytes": 299506
+      }
+    },
+    {
+      "id": "cg-date",
+      "name": "法式心事番外CG",
+      "file": "src/assets/outfit-cg-v3-date.png",
+      "transparent": false,
+      "sourceOutfit": "date",
+      "references": [
+        "src/assets/wardrobe-v3-date.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: Under a courtyard arch after a light rain, the adult couple share a large umbrella, she lightly holds his coat sleeve, wet stones reflecting lanterns. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-date.png",
+        "pngSha256": "c10f5eaaed4de2c4eff279de5dac4fe6bc3bdbfe7a2e057427bf5eced3143136",
+        "webp": "src/assets/outfit-cg-v3-date.webp",
+        "webpSha256": "8b9dc1e88b978c14d8cdbed9b44ae40ba8aa507d6b05ccc97ed876e32e1c3c2e",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2954706,
+        "webpBytes": 450520
+      }
+    },
+    {
+      "id": "travel-expressions-b",
+      "name": "轻旅晴天表情b",
+      "file": "src/assets/wardrobe-v3-travel-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "travel",
+      "references": [
+        "src/assets/wardrobe-v3-travel.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-travel-expressions-b.png",
+        "pngSha256": "1057e7d6d86ad58efb5c24e9e26bc44342ba723b50657985dd0539273b4371dd",
+        "webp": "src/assets/wardrobe-v3-travel-expressions-b.webp",
+        "webpSha256": "1e2a83bea9f0c086ef1f404ad10f49d86d8826be4990af51e8aa1bf4bbd8d914",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2203225,
+        "webpBytes": 315292
+      }
+    },
+    {
+      "id": "travel-expressions-c",
+      "name": "轻旅晴天表情c",
+      "file": "src/assets/wardrobe-v3-travel-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "travel",
+      "references": [
+        "src/assets/wardrobe-v3-travel.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-travel-expressions-c.png",
+        "pngSha256": "c06ee4b3d33485ea9b56be4b0d85520b77023b393286a50a1f9da4e2328f4686",
+        "webp": "src/assets/wardrobe-v3-travel-expressions-c.webp",
+        "webpSha256": "9b09165291a5b5a11eeff9578bd5d70729b82c303276eeece8d63daa4be01615",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1619568,
+        "webpBytes": 332784
+      }
+    },
+    {
+      "id": "cg-travel",
+      "name": "轻旅晴天番外CG",
+      "file": "src/assets/outfit-cg-v3-travel.png",
+      "transparent": false,
+      "sourceOutfit": "travel",
+      "references": [
+        "src/assets/wardrobe-v3-travel.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: At a Hogwarts railway platform in autumn, they stand beside a leather travel trunk, Harry offers her hand, her sporty outfit and carefree adult smile prominent. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-travel.png",
+        "pngSha256": "27598940746d0aee5d9fcccae5cfb78ac64ee25b6e86a3ba16f9eb067a38a53c",
+        "webp": "src/assets/outfit-cg-v3-travel.webp",
+        "webpSha256": "b380da5f1f08bb1b214a9c0752f0cfad69907ade51a19c5d264b7d12732b4aae",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2771446,
+        "webpBytes": 405728
+      }
+    },
+    {
+      "id": "summer-expressions-b",
+      "name": "湖畔花信表情b",
+      "file": "src/assets/wardrobe-v3-summer-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "summer",
+      "references": [
+        "src/assets/wardrobe-v3-summer.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-summer-expressions-b.png",
+        "pngSha256": "5c5bb52758fe1a78ec1251345cc6f015d9f8163b946d9a2b3d7c485cbd009b1a",
+        "webp": "src/assets/wardrobe-v3-summer-expressions-b.webp",
+        "webpSha256": "dc1f63dc6c29a28372cbfc3ab5c5563daf4c23172f7865f5a0edeea3d9624787",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2637647,
+        "webpBytes": 416546
+      }
+    },
+    {
+      "id": "summer-expressions-c",
+      "name": "湖畔花信表情c",
+      "file": "src/assets/wardrobe-v3-summer-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "summer",
+      "references": [
+        "src/assets/wardrobe-v3-summer.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-summer-expressions-c.png",
+        "pngSha256": "d003471290d7839f558416e685bce82e041a0b22389b001991222a2db3ca8c9c",
+        "webp": "src/assets/wardrobe-v3-summer-expressions-c.webp",
+        "webpSha256": "9ef99dafddc5cb1f4182b638287868e55e5721b5e9eeb9baf4360b72f2abcd56",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2060974,
+        "webpBytes": 389940
+      }
+    },
+    {
+      "id": "cg-summer",
+      "name": "湖畔花信番外CG",
+      "file": "src/assets/outfit-cg-v3-summer.png",
+      "transparent": false,
+      "sourceOutfit": "summer",
+      "references": [
+        "src/assets/wardrobe-v3-summer.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: Beside a calm moonlit lake and flowering reeds, she holds her straw hat against the breeze while Harry tenderly takes her free hand. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-summer.png",
+        "pngSha256": "ce59faa9c7fed32065c4e18f9e0891275bb897698d22af8042da8fb850043d0f",
+        "webp": "src/assets/outfit-cg-v3-summer.webp",
+        "webpSha256": "984ed6d474d9df460316f19630c143a398f5303c5db89c09c1072bbeed2d5c62",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 3042092,
+        "webpBytes": 463084
+      }
+    },
+    {
+      "id": "scholar-expressions-b",
+      "name": "书页与星表情b",
+      "file": "src/assets/wardrobe-v3-scholar-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "scholar",
+      "references": [
+        "src/assets/wardrobe-v3-scholar.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-scholar-expressions-b.png",
+        "pngSha256": "5f8e6f02fdd7b248b8af412c2c9ed1ccd1a2098cff6723cfdd4762d9eb4f94ca",
+        "webp": "src/assets/wardrobe-v3-scholar-expressions-b.webp",
+        "webpSha256": "54fbd73c789aa7fdad807c3003e2b69580266fe53b88cd7926d2e7980a9fc9cc",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2437383,
+        "webpBytes": 336226
+      }
+    },
+    {
+      "id": "scholar-expressions-c",
+      "name": "书页与星表情c",
+      "file": "src/assets/wardrobe-v3-scholar-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "scholar",
+      "references": [
+        "src/assets/wardrobe-v3-scholar.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-scholar-expressions-c.png",
+        "pngSha256": "6fdefd8b05c466526827024a2ff3131aa94075f78a1cc44b3db9a82fb87fa2de",
+        "webp": "src/assets/wardrobe-v3-scholar-expressions-c.webp",
+        "webpSha256": "fb7ec787a9c1236f2431c0047ff093c803ec64a100d2fb73006c1d76948b8faf",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2142614,
+        "webpBytes": 353932
+      }
+    },
+    {
+      "id": "cg-scholar",
+      "name": "书页与星番外CG",
+      "file": "src/assets/outfit-cg-v3-scholar.png",
+      "transparent": false,
+      "sourceOutfit": "scholar",
+      "references": [
+        "src/assets/wardrobe-v3-scholar.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In a richly detailed old library, Harry reaches for the same star atlas as her, shoulders close, she glances sideways with a small blush. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-scholar.png",
+        "pngSha256": "40537e6d4018c48e8b485c9b9254390208a1039e3e076b65c1d258f002f7008a",
+        "webp": "src/assets/outfit-cg-v3-scholar.webp",
+        "webpSha256": "562ce14a45756182b0e0ecda89af09191beab569a3a85311c150695429a788f1",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2776192,
+        "webpBytes": 399736
+      }
+    },
+    {
+      "id": "rider-expressions-b",
+      "name": "英伦骑装表情b",
+      "file": "src/assets/wardrobe-v3-rider-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "rider",
+      "references": [
+        "src/assets/wardrobe-v3-rider.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-rider-expressions-b.png",
+        "pngSha256": "359b0312d5f78e7d509d92f9180b6f4eb4a293f5a14565d1c0908d8c19de133e",
+        "webp": "src/assets/wardrobe-v3-rider-expressions-b.webp",
+        "webpSha256": "0dc82c417962a051177eb7ad9663e155eb8072c8777bf413bf4067c215a9b65d",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2313791,
+        "webpBytes": 341224
+      }
+    },
+    {
+      "id": "rider-expressions-c",
+      "name": "英伦骑装表情c",
+      "file": "src/assets/wardrobe-v3-rider-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "rider",
+      "references": [
+        "src/assets/wardrobe-v3-rider.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-rider-expressions-c.png",
+        "pngSha256": "53413eb6da6481c627372b126ba4865cc3b4d06503cbde96fb56b22f99fa76ee",
+        "webp": "src/assets/wardrobe-v3-rider-expressions-c.webp",
+        "webpSha256": "0bef780d2c60a34d3c45bda2e022e30576909a1780f46e420067fbec4fab46ef",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1759528,
+        "webpBytes": 351424
+      }
+    },
+    {
+      "id": "cg-rider",
+      "name": "英伦骑装番外CG",
+      "file": "src/assets/outfit-cg-v3-rider.png",
+      "transparent": false,
+      "sourceOutfit": "rider",
+      "references": [
+        "src/assets/wardrobe-v3-rider.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: At a rustic stable courtyard after a ride, Harry helps fasten her riding glove while she looks amused and bashful; a calm horse in distant background. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-rider.png",
+        "pngSha256": "f24c771b7ca23ea4f2a7aea34573352c36e39db2b407823a25dff0622c8b12f5",
+        "webp": "src/assets/outfit-cg-v3-rider.webp",
+        "webpSha256": "fd75432d8d24a01c30c24ddbe37456fcb911aff3babacebea9615947d6669f50",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2874921,
+        "webpBytes": 423442
+      }
+    },
+    {
+      "id": "detective-expressions-b",
+      "name": "雨夜侦探表情b",
+      "file": "src/assets/wardrobe-v3-detective-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "detective",
+      "references": [
+        "src/assets/wardrobe-v3-detective.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-detective-expressions-b.png",
+        "pngSha256": "f90713f5beaad7f3ceaae357ab0582a3e279df22488199914b42475c95fc45bf",
+        "webp": "src/assets/wardrobe-v3-detective-expressions-b.webp",
+        "webpSha256": "1da1268df1f2d50df44a4d0355a6555e03123311cbc1f74471d3b235a5c0fd47",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2463943,
+        "webpBytes": 372350
+      }
+    },
+    {
+      "id": "detective-expressions-c",
+      "name": "雨夜侦探表情c",
+      "file": "src/assets/wardrobe-v3-detective-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "detective",
+      "references": [
+        "src/assets/wardrobe-v3-detective.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-detective-expressions-c.png",
+        "pngSha256": "635a883e0b400724316a2fa41bea8ed9285bf728ae9500b9c50ecc51460bc34d",
+        "webp": "src/assets/wardrobe-v3-detective-expressions-c.webp",
+        "webpSha256": "6e63bfab783dcb3cbf3dd2ead2399a4e004f11392ec04a38a3efa8131ee43c3f",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2103513,
+        "webpBytes": 385756
+      }
+    },
+    {
+      "id": "cg-detective",
+      "name": "雨夜侦探番外CG",
+      "file": "src/assets/outfit-cg-v3-detective.png",
+      "transparent": false,
+      "sourceOutfit": "detective",
+      "references": [
+        "src/assets/wardrobe-v3-detective.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: On a lamplit rainy street at night, the adult couple share an umbrella and compare a small handwritten clue, her trench coat billows slightly. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-detective.png",
+        "pngSha256": "fac322acb4e4ca20b2cde770baa155d13ecf93881c0268b457c43dd4f16b6680",
+        "webp": "src/assets/outfit-cg-v3-detective.webp",
+        "webpSha256": "0f78657954639a288b003ad39f2e36a0042ba4a4bdc7186c32fad704d04e4e5a",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2984101,
+        "webpBytes": 471312
+      }
+    },
+    {
+      "id": "witch-expressions-b",
+      "name": "黑金魔女表情b",
+      "file": "src/assets/wardrobe-v3-witch-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "witch",
+      "references": [
+        "src/assets/wardrobe-v3-witch.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-witch-expressions-b.png",
+        "pngSha256": "ec3a644e88836eae9d6432de11fc861f9aa71758af101f6df717b2e3e3e9bf5e",
+        "webp": "src/assets/wardrobe-v3-witch-expressions-b.webp",
+        "webpSha256": "65017a4346b2227892aa12b50652a37d4b5b9cbc46b3270bd99088c1fbf14699",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2612996,
+        "webpBytes": 405512
+      }
+    },
+    {
+      "id": "witch-expressions-c",
+      "name": "黑金魔女表情c",
+      "file": "src/assets/wardrobe-v3-witch-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "witch",
+      "references": [
+        "src/assets/wardrobe-v3-witch.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-witch-expressions-c.png",
+        "pngSha256": "890c83b03554eaa0ed56c675a508fe0dcceb67bd6ca1f5dbad64b287612bbccf",
+        "webp": "src/assets/wardrobe-v3-witch-expressions-c.webp",
+        "webpSha256": "853eaa7b1c3e4132c7ab088298e3cf901dea5f96ca14467afab860a9b4e47a62",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2189707,
+        "webpBytes": 396336
+      }
+    },
+    {
+      "id": "cg-witch",
+      "name": "黑金魔女番外CG",
+      "file": "src/assets/outfit-cg-v3-witch.png",
+      "transparent": false,
+      "sourceOutfit": "witch",
+      "references": [
+        "src/assets/wardrobe-v3-witch.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In a warmly lit potion laboratory, she proudly shows a softly glowing crystal to Harry, his hand gently supports hers; ornate bottles and books. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-witch.png",
+        "pngSha256": "2044ee8cf3dcecb1ded8072c0d807ecb7fd19a3e0d387937d296787eee08d7d7",
+        "webp": "src/assets/outfit-cg-v3-witch.webp",
+        "webpSha256": "ffb59cb0c067ba6e7169f6f4562ca92032f59b0cb935a521c915911dc8b74de4",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2765866,
+        "webpBytes": 415222
+      }
+    },
+    {
+      "id": "moon-expressions-b",
+      "name": "月光银缎表情b",
+      "file": "src/assets/wardrobe-v3-moon-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "moon",
+      "references": [
+        "src/assets/wardrobe-v3-moon.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-moon-expressions-b.png",
+        "pngSha256": "0a7a10f1723aff0622f2a2731f7c987bff589a53d476e0900567ba1e2f51e005",
+        "webp": "src/assets/wardrobe-v3-moon-expressions-b.webp",
+        "webpSha256": "7cfaf517cdaf5db7d68b511f2bf8f68c08413a9d63e21456f8d198713b973a2e",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2565671,
+        "webpBytes": 375040
+      }
+    },
+    {
+      "id": "moon-expressions-c",
+      "name": "月光银缎表情c",
+      "file": "src/assets/wardrobe-v3-moon-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "moon",
+      "references": [
+        "src/assets/wardrobe-v3-moon.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-moon-expressions-c.png",
+        "pngSha256": "b6914a256b6b13ad855356873ca64d55ddaf52e55b975ae88de9f57fb90f0af7",
+        "webp": "src/assets/wardrobe-v3-moon-expressions-c.webp",
+        "webpSha256": "60716d689baed019fb3137f31d9eff2dbdd0ff5dc72efb7cd8c0840bb4f7a731",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2188191,
+        "webpBytes": 377978
+      }
+    },
+    {
+      "id": "cg-moon",
+      "name": "月光银缎番外CG",
+      "file": "src/assets/outfit-cg-v3-moon.png",
+      "transparent": false,
+      "sourceOutfit": "moon",
+      "references": [
+        "src/assets/wardrobe-v3-moon.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: At a stone astronomy tower balcony under a bright full moon, Harry offers his hand and she accepts, silver gown and stars glowing softly. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-moon.png",
+        "pngSha256": "f7970cd48e6750c03a8b47f3e674d8aac0c25b0cd8c56a0fc9890d8905705c0e",
+        "webp": "src/assets/outfit-cg-v3-moon.webp",
+        "webpSha256": "68b2132fdf0c23606a21daa80608ae9d6f8d6ac406619a486136c9a518fe417f",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2904789,
+        "webpBytes": 441498
+      }
+    },
+    {
+      "id": "swan-expressions-b",
+      "name": "黑天鹅表情b",
+      "file": "src/assets/wardrobe-v3-swan-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "swan",
+      "references": [
+        "src/assets/wardrobe-v3-swan.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-swan-expressions-b.png",
+        "pngSha256": "821c47ac39ddab3ed3cafe7d4551cc196fa846af31978a6bdb13ffb3a058b382",
+        "webp": "src/assets/wardrobe-v3-swan-expressions-b.webp",
+        "webpSha256": "84a3b188d8d3aa735ca849ead3a487eb72eb051235a6f8703c64b2e9e38b213c",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2752834,
+        "webpBytes": 426040
+      }
+    },
+    {
+      "id": "swan-expressions-c",
+      "name": "黑天鹅表情c",
+      "file": "src/assets/wardrobe-v3-swan-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "swan",
+      "references": [
+        "src/assets/wardrobe-v3-swan.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-swan-expressions-c.png",
+        "pngSha256": "c2ba05131ec1248006fa050f0a087aef750d99acec7586d0e1fdfcb127352900",
+        "webp": "src/assets/wardrobe-v3-swan-expressions-c.webp",
+        "webpSha256": "4af28cddddb5801d0c070ccb791e8f509506244a46fc6817db8aea04c113abd2",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2417300,
+        "webpBytes": 479084
+      }
+    },
+    {
+      "id": "cg-swan",
+      "name": "黑天鹅番外CG",
+      "file": "src/assets/outfit-cg-v3-swan.png",
+      "transparent": false,
+      "sourceOutfit": "swan",
+      "references": [
+        "src/assets/wardrobe-v3-swan.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In an elegant empty concert hall after a performance, the couple share a quiet slow dance, black formal dress and feather shoulder ornament clearly visible. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-swan.png",
+        "pngSha256": "13cea28c9c3e022f22d9a5c22dccebda0bb88f35cded30b584a8240f008e4714",
+        "webp": "src/assets/outfit-cg-v3-swan.webp",
+        "webpSha256": "028e96e556944b3ee536c7614125b24d3d31fca07dd8214df1aa9b1f4ac3c9cf",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2806882,
+        "webpBytes": 416142
+      }
+    },
+    {
+      "id": "magnolia-expressions-b",
+      "name": "玉兰夜语表情b",
+      "file": "src/assets/wardrobe-v3-magnolia-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "magnolia",
+      "references": [
+        "src/assets/wardrobe-v3-magnolia.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-magnolia-expressions-b.png",
+        "pngSha256": "2eb5f8354865dd85efe6ac394b2a34bf614286b1fdbf2eecb9194ae792258289",
+        "webp": "src/assets/wardrobe-v3-magnolia-expressions-b.webp",
+        "webpSha256": "686eaaecb326133df66ec38d8a7e80c90fad02e220241abb3d528c85ed2fa1ea",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2587753,
+        "webpBytes": 406138
+      }
+    },
+    {
+      "id": "magnolia-expressions-c",
+      "name": "玉兰夜语表情c",
+      "file": "src/assets/wardrobe-v3-magnolia-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "magnolia",
+      "references": [
+        "src/assets/wardrobe-v3-magnolia.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-magnolia-expressions-c.png",
+        "pngSha256": "482b45dff8e73ad4eb44a8002b3e5446f7dd491bc4395f2f1e207883257cd5f4",
+        "webp": "src/assets/wardrobe-v3-magnolia-expressions-c.webp",
+        "webpSha256": "165bf0da77f55cb7b4014dc0dde497e58fe7d06299a00d670f67a2f441fd5007",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2063111,
+        "webpBytes": 411350
+      }
+    },
+    {
+      "id": "cg-magnolia",
+      "name": "玉兰夜语番外CG",
+      "file": "src/assets/outfit-cg-v3-magnolia.png",
+      "transparent": false,
+      "sourceOutfit": "magnolia",
+      "references": [
+        "src/assets/wardrobe-v3-magnolia.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In a lantern-lit garden with white magnolia blossoms, Harry offers her a single blossom, her high-collar embroidered qipao and shawl fully visible. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-magnolia.png",
+        "pngSha256": "f034474c5a6ae035960a0491698e62779a49b623fba7f4a8953fe1eef5c2a857",
+        "webp": "src/assets/outfit-cg-v3-magnolia.webp",
+        "webpSha256": "7a64f899e9b678bae56c9cdcca6295ffe9313d72c825681f54839672380c89eb",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2970636,
+        "webpBytes": 444996
+      }
+    },
+    {
+      "id": "christmas-expressions-b",
+      "name": "雪夜圣诞表情b",
+      "file": "src/assets/wardrobe-v3-christmas-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "christmas",
+      "references": [
+        "src/assets/wardrobe-v3-christmas.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-christmas-expressions-b.png",
+        "pngSha256": "751db62023b485eae39c2e843d63e4523b225633332e56965f371e8a768cf78e",
+        "webp": "src/assets/wardrobe-v3-christmas-expressions-b.webp",
+        "webpSha256": "3586ef4316b42bb01e88f9e112c2f5245ba281b0b6609fe04705ebe845eafe90",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2498343,
+        "webpBytes": 393444
+      }
+    },
+    {
+      "id": "christmas-expressions-c",
+      "name": "雪夜圣诞表情c",
+      "file": "src/assets/wardrobe-v3-christmas-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "christmas",
+      "references": [
+        "src/assets/wardrobe-v3-christmas.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-christmas-expressions-c.png",
+        "pngSha256": "d40999e5c60d943ff92dadcc20ec0347e8bfe5164f64f70283f1983d5b2efd59",
+        "webp": "src/assets/wardrobe-v3-christmas-expressions-c.webp",
+        "webpSha256": "ecf9ceea5bd1f0d451d217e1580a611c5d7fe61658d121af98d212031951f488",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1887249,
+        "webpBytes": 398422
+      }
+    },
+    {
+      "id": "cg-christmas",
+      "name": "雪夜圣诞番外CG",
+      "file": "src/assets/outfit-cg-v3-christmas.png",
+      "transparent": false,
+      "sourceOutfit": "christmas",
+      "references": [
+        "src/assets/wardrobe-v3-christmas.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: Beside a Christmas tree and crackling dormitory fireplace, Harry gives her a small wrapped gift, she hides a delighted blush behind a teasing smile. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-christmas.png",
+        "pngSha256": "c48ec08387b96f3eab1329b7bb9e4a149f67e1ad5b21cbbb8be78e8fd92677db",
+        "webp": "src/assets/outfit-cg-v3-christmas.webp",
+        "webpSha256": "b75ba69c7fe63422a22edf4de6ea34e2001bdd66aec9763ebe02f19e215d24bf",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2746214,
+        "webpBytes": 393254
+      }
+    },
+    {
+      "id": "prince-expressions-b",
+      "name": "白金贵族表情b",
+      "file": "src/assets/wardrobe-v3-prince-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "prince",
+      "references": [
+        "src/assets/wardrobe-v3-prince.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-prince-expressions-b.png",
+        "pngSha256": "fd1d0028d557f67223bcbd368109033e19a582551a2f7d64313613e3bbe9af4e",
+        "webp": "src/assets/wardrobe-v3-prince-expressions-b.webp",
+        "webpSha256": "475694d6b767422933155c6e8a721a36c7bc1c95b4eb7a7aee0e8fd15043730a",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2683107,
+        "webpBytes": 429942
+      }
+    },
+    {
+      "id": "prince-expressions-c",
+      "name": "白金贵族表情c",
+      "file": "src/assets/wardrobe-v3-prince-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "prince",
+      "references": [
+        "src/assets/wardrobe-v3-prince.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-prince-expressions-c.png",
+        "pngSha256": "e276f2eba29bd889a89bfbae9525012e885df5dad47674df9c2f187545c9cb7c",
+        "webp": "src/assets/wardrobe-v3-prince-expressions-c.webp",
+        "webpSha256": "ccbc3aa5e219a72bbfc3a7131474e6bf4e8b0c836ddf0bd492dc7b01c805a9bd",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2274843,
+        "webpBytes": 439684
+      }
+    },
+    {
+      "id": "cg-prince",
+      "name": "白金贵族番外CG",
+      "file": "src/assets/outfit-cg-v3-prince.png",
+      "transparent": false,
+      "sourceOutfit": "prince",
+      "references": [
+        "src/assets/wardrobe-v3-prince.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In a grand candlelit corridor, she wears formal white-gold tailcoat and offers Harry her gloved hand with proud playful confidence; he bows with a warm smile. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-prince.png",
+        "pngSha256": "508f0a0240be2064186d2a729d69f7f5d7c883d7745132718f443b2b5ab7c82c",
+        "webp": "src/assets/outfit-cg-v3-prince.webp",
+        "webpSha256": "d8d7b4e080fe42ada568ca5a66e5d5a775b39b7599b6a2af02fad7befb17ddca",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2836392,
+        "webpBytes": 405386
+      }
+    },
+    {
+      "id": "maid-expressions-b",
+      "name": "咖啡时光表情b",
+      "file": "src/assets/wardrobe-v3-maid-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "maid",
+      "references": [
+        "src/assets/wardrobe-v3-maid.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-maid-expressions-b.png",
+        "pngSha256": "7a4c97c1975005d3d37d295e84e6ae2c5993ea82dd379ae6f203b9f2df1e5be1",
+        "webp": "src/assets/wardrobe-v3-maid-expressions-b.webp",
+        "webpSha256": "586d180023fa21f3fe2a10c0657571b0b89b739cdc80c24709a8fead39d43c65",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2258010,
+        "webpBytes": 320594
+      }
+    },
+    {
+      "id": "maid-expressions-c",
+      "name": "咖啡时光表情c",
+      "file": "src/assets/wardrobe-v3-maid-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "maid",
+      "references": [
+        "src/assets/wardrobe-v3-maid.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-maid-expressions-c.png",
+        "pngSha256": "27f0f78b4199c47d1e9dea922d70b524b4f8eba4af0caedd6503af0ed4e18153",
+        "webp": "src/assets/wardrobe-v3-maid-expressions-c.webp",
+        "webpSha256": "3fe8b4576624fd6bb171b1eff9fbdff6d69c75591545cee2441a149e60cba628",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1722253,
+        "webpBytes": 352730
+      }
+    },
+    {
+      "id": "cg-maid",
+      "name": "咖啡时光番外CG",
+      "file": "src/assets/outfit-cg-v3-maid.png",
+      "transparent": false,
+      "sourceOutfit": "maid",
+      "references": [
+        "src/assets/wardrobe-v3-maid.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In a cozy magical cafe after closing, she carries a porcelain coffee cup and Harry helps tie the loose ribbon of her apron at the SIDE while both are fully dressed, embarrassed affectionate eye contact. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-maid.png",
+        "pngSha256": "f08caabbdddf9726bcafea4a9b046fa1c9692cb8ba9b457f94c6921f005ef1ce",
+        "webp": "src/assets/outfit-cg-v3-maid.webp",
+        "webpSha256": "750fab732e1e0cdc477047c6f8cfb2adbc034a5a29b9f873fb6c82bbec74d473",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2786983,
+        "webpBytes": 419510
+      }
+    },
+    {
+      "id": "stars-expressions-b",
+      "name": "星辰舞会表情b",
+      "file": "src/assets/wardrobe-v3-stars-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "stars",
+      "references": [
+        "src/assets/wardrobe-v3-stars.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-stars-expressions-b.png",
+        "pngSha256": "ab43ea29ed59eb3344b259c4d6fc95f68d7b1709e5bb4d8f3049ca43ec9bdef4",
+        "webp": "src/assets/wardrobe-v3-stars-expressions-b.webp",
+        "webpSha256": "aafbf923dc54521e46c0cb6bc91d7cd47db618cfb21eaf132ec78e8a2768680c",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2880061,
+        "webpBytes": 469410
+      }
+    },
+    {
+      "id": "stars-expressions-c",
+      "name": "星辰舞会表情c",
+      "file": "src/assets/wardrobe-v3-stars-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "stars",
+      "references": [
+        "src/assets/wardrobe-v3-stars.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-stars-expressions-c.png",
+        "pngSha256": "2866ed889f895471d3c28d3bae849b6ed5ea8aba30f4ce33f605ee87b098145e",
+        "webp": "src/assets/wardrobe-v3-stars-expressions-c.webp",
+        "webpSha256": "e21c6688da71303c00feeca7f6d17d0b25e44deb1644ee5610a23d575a45399d",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2481224,
+        "webpBytes": 498282
+      }
+    },
+    {
+      "id": "cg-stars",
+      "name": "星辰舞会番外CG",
+      "file": "src/assets/outfit-cg-v3-stars.png",
+      "transparent": false,
+      "sourceOutfit": "stars",
+      "references": [
+        "src/assets/wardrobe-v3-stars.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: At a midnight observatory, the couple stand beside a brass telescope, Harry points out a constellation while she looks at him instead, star-embroidered gown softly glowing. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-stars.png",
+        "pngSha256": "9d43b70c6a1a71567ba146bb5162b1de1a2ce0c7048fe8ae508f07e059ca11ca",
+        "webp": "src/assets/outfit-cg-v3-stars.webp",
+        "webpSha256": "64d0509702fffa5a38d1f71497f082fe1ce79553f6b7f5325909992590fafe26",
+        "width": 1672,
+        "height": 940,
+        "pngBytes": 3037684,
+        "webpBytes": 496148
+      }
+    },
+    {
+      "id": "cocktail-expressions-b",
+      "name": "午夜蔷薇表情b",
+      "file": "src/assets/wardrobe-v3-cocktail-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "cocktail",
+      "references": [
+        "src/assets/wardrobe-v3-cocktail.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-cocktail-expressions-b.png",
+        "pngSha256": "5b7d1e2ba6679bdd201afe5a7cd4b21095a9b7eb8f8a309271d180484ac5adbd",
+        "webp": "src/assets/wardrobe-v3-cocktail-expressions-b.webp",
+        "webpSha256": "c440eabe53a15ad3a090e7a3da1cc23b4328a7cac1098a8312c373b5986d6544",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2125117,
+        "webpBytes": 299444
+      }
+    },
+    {
+      "id": "cocktail-expressions-c",
+      "name": "午夜蔷薇表情c",
+      "file": "src/assets/wardrobe-v3-cocktail-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "cocktail",
+      "references": [
+        "src/assets/wardrobe-v3-cocktail.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-cocktail-expressions-c.png",
+        "pngSha256": "25097d6a41843a5f0cd9cfcb099f23741dff0c6f332b2fd9734bb1dc3905b4e7",
+        "webp": "src/assets/wardrobe-v3-cocktail-expressions-c.webp",
+        "webpSha256": "e228583eb6d3874758909cdc057a334810d7511aea7f2165363237fb116ffa68",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1538154,
+        "webpBytes": 318128
+      }
+    },
+    {
+      "id": "cg-cocktail",
+      "name": "午夜蔷薇番外CG",
+      "file": "src/assets/outfit-cg-v3-cocktail.png",
+      "transparent": false,
+      "sourceOutfit": "cocktail",
+      "references": [
+        "src/assets/wardrobe-v3-cocktail.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: At a sophisticated candlelit hotel lounge, she stands beside Harry with two glasses of sparkling apple drink, elegant black cocktail dress and ruby jewelry, flirtatious warm eye contact. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-cocktail.png",
+        "pngSha256": "594ed18af72557824d7d3b1b1b0fc0a679b96374d594c4bf75144d50f377b20b",
+        "webp": "src/assets/outfit-cg-v3-cocktail.webp",
+        "webpSha256": "b9fbdd3e48669460d0792ca21d8627bc73803f0a034434d9cff44f9a00709e52",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2637691,
+        "webpBytes": 372144
+      }
+    },
+    {
+      "id": "leather-expressions-b",
+      "name": "黑曜街角表情b",
+      "file": "src/assets/wardrobe-v3-leather-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "leather",
+      "references": [
+        "src/assets/wardrobe-v3-leather.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-leather-expressions-b.png",
+        "pngSha256": "0ed3e2f7faf0b49d50e9d86ae3fd127a2f21e018e74aee7abf6302468d87498f",
+        "webp": "src/assets/wardrobe-v3-leather-expressions-b.webp",
+        "webpSha256": "2f2cb91ae653180300929a06d1cf34b1199f422e7bf9bcfb46ed47eb3c9a9ab6",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2067617,
+        "webpBytes": 290072
+      }
+    },
+    {
+      "id": "leather-expressions-c",
+      "name": "黑曜街角表情c",
+      "file": "src/assets/wardrobe-v3-leather-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "leather",
+      "references": [
+        "src/assets/wardrobe-v3-leather.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-leather-expressions-c.png",
+        "pngSha256": "ce72d381ab2afffae771c3473a4f28bbd8bbc4084f77c8421b900211755be895",
+        "webp": "src/assets/wardrobe-v3-leather-expressions-c.webp",
+        "webpSha256": "3abf24b9da0ed028db7586c4ce8cbb71d8d3c97e90fc5c74750ca7efa2789d83",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1402890,
+        "webpBytes": 295276
+      }
+    },
+    {
+      "id": "cg-leather",
+      "name": "黑曜街角番外CG",
+      "file": "src/assets/outfit-cg-v3-leather.png",
+      "transparent": false,
+      "sourceOutfit": "leather",
+      "references": [
+        "src/assets/wardrobe-v3-leather.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: At a night street bookshop with warm windows, Harry offers his hand as she steps over a puddle, her leather jacket and elegant skirt moving naturally. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-leather.png",
+        "pngSha256": "aa22296f8892c4861f84f6dc8ac0c1e947cd3c4239d110ea7e7c3e86e10dda3d",
+        "webp": "src/assets/outfit-cg-v3-leather.webp",
+        "webpSha256": "970cf81a1a256caf88816e14a8964ff5abb7b9cddd41695615b5d7438eeddc80",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2835126,
+        "webpBytes": 449768
+      }
+    },
+    {
+      "id": "tailor-expressions-b",
+      "name": "偏爱正装表情b",
+      "file": "src/assets/wardrobe-v3-tailor-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "tailor",
+      "references": [
+        "src/assets/wardrobe-v3-tailor.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-tailor-expressions-b.png",
+        "pngSha256": "7758dae66d348f19bd244f4423ad4d5496c35bd465c0ca8f890685fcc36d9fb3",
+        "webp": "src/assets/wardrobe-v3-tailor-expressions-b.webp",
+        "webpSha256": "c850469b889dfffdb412511251c55ea3877e9357c432243b0b62dde6846ec782",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2139852,
+        "webpBytes": 293708
+      }
+    },
+    {
+      "id": "tailor-expressions-c",
+      "name": "偏爱正装表情c",
+      "file": "src/assets/wardrobe-v3-tailor-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "tailor",
+      "references": [
+        "src/assets/wardrobe-v3-tailor.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-tailor-expressions-c.png",
+        "pngSha256": "709e102d5ea4b95d4b481381d9cc9806704921d1fc97d252cfd9a1ed60cb7a6b",
+        "webp": "src/assets/wardrobe-v3-tailor-expressions-c.webp",
+        "webpSha256": "a5d08d05945305d822e1552f14741979b3823825f365166c5326df5677e0aeac",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1543616,
+        "webpBytes": 324472
+      }
+    },
+    {
+      "id": "cg-tailor",
+      "name": "偏爱正装番外CG",
+      "file": "src/assets/outfit-cg-v3-tailor.png",
+      "transparent": false,
+      "sourceOutfit": "tailor",
+      "references": [
+        "src/assets/wardrobe-v3-tailor.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In a tidy old university office at sunset, Harry brings tea as she closes a stack of paperwork, his hand rests lightly on her chair, teasing loving conversation. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-tailor.png",
+        "pngSha256": "2b8904bb769491af03e6164c9fa49805455ad3db7ab6fade56970547b1e2561c",
+        "webp": "src/assets/outfit-cg-v3-tailor.webp",
+        "webpSha256": "d453c65a847b0c605e20bde9181c2086e26e0984f734ed318e2b3e361a0a5f71",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2610084,
+        "webpBytes": 366382
+      }
+    },
+    {
+      "id": "violet-expressions-b",
+      "name": "紫夜骑士表情b",
+      "file": "src/assets/wardrobe-v3-violet-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "violet",
+      "references": [
+        "src/assets/wardrobe-v3-violet.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-violet-expressions-b.png",
+        "pngSha256": "cde1c098f6f64781006255b3e27539ed53798f002aceeeb6e6099706f3c9f016",
+        "webp": "src/assets/wardrobe-v3-violet-expressions-b.webp",
+        "webpSha256": "9ed2d4358a16dd9fa4cb9414e0741571a91bde762ba3ce95e36b49ae325a5ef9",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2523910,
+        "webpBytes": 371794
+      }
+    },
+    {
+      "id": "violet-expressions-c",
+      "name": "紫夜骑士表情c",
+      "file": "src/assets/wardrobe-v3-violet-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "violet",
+      "references": [
+        "src/assets/wardrobe-v3-violet.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-violet-expressions-c.png",
+        "pngSha256": "e88b2507cbdf2cf28d9f2ad45a6d9e9a50a24bc285bf34f43255401035c456b1",
+        "webp": "src/assets/wardrobe-v3-violet-expressions-c.webp",
+        "webpSha256": "638c69ec76f6f7fd705a1b8ddb3daa09e6ab8544a884d7efe7519695990402fb",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2138785,
+        "webpBytes": 376162
+      }
+    },
+    {
+      "id": "cg-violet",
+      "name": "紫夜骑士番外CG",
+      "file": "src/assets/outfit-cg-v3-violet.png",
+      "transparent": false,
+      "sourceOutfit": "violet",
+      "references": [
+        "src/assets/wardrobe-v3-violet.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In a misty castle courtyard after a harmless practice duel, Harry offers her a hand to stand from a stone bench, both fully dressed in adventure clothing, relieved smiles. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-violet.png",
+        "pngSha256": "d389d1ed6bfb9c8b34c8cf0fe0e8df20fa22fba001b75c162c373b3e85226da7",
+        "webp": "src/assets/outfit-cg-v3-violet.webp",
+        "webpSha256": "59cabec27c2827e514267bc47b219bc06917504e08c9600a6026a6a1fa15c59a",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2992866,
+        "webpBytes": 443244
+      }
+    },
+    {
+      "id": "champagne-expressions-b",
+      "name": "香槟余温表情b",
+      "file": "src/assets/wardrobe-v3-champagne-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "champagne",
+      "references": [
+        "src/assets/wardrobe-v3-champagne.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-champagne-expressions-b.png",
+        "pngSha256": "6f36c950a6d35b2053a32ed4d77dad2361895b3bd15cef19163f621b49402fee",
+        "webp": "src/assets/wardrobe-v3-champagne-expressions-b.webp",
+        "webpSha256": "15e8d62c8a54f76f570e09c4dd8a16b7c8bafe4ab1ce650c9d19b54be2402f6e",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2715500,
+        "webpBytes": 405906
+      }
+    },
+    {
+      "id": "champagne-expressions-c",
+      "name": "香槟余温表情c",
+      "file": "src/assets/wardrobe-v3-champagne-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "champagne",
+      "references": [
+        "src/assets/wardrobe-v3-champagne.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-champagne-expressions-c.png",
+        "pngSha256": "743786fcca52411dbee956ab3a727578c5070323531d22fd43a9126ceb5e216e",
+        "webp": "src/assets/wardrobe-v3-champagne-expressions-c.webp",
+        "webpSha256": "71cb73f50971595f177f9b205ecf73c64c23401c05825dd7c9a6304196ce7c78",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 2428079,
+        "webpBytes": 425752
+      }
+    },
+    {
+      "id": "cg-champagne",
+      "name": "香槟余温番外CG",
+      "file": "src/assets/outfit-cg-v3-champagne.png",
+      "transparent": false,
+      "sourceOutfit": "champagne",
+      "references": [
+        "src/assets/wardrobe-v3-champagne.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: On a candlelit terrace at sunset, Harry gently clasps her hand and kisses her knuckles, champagne silk dress and soft shawl fully visible, sweet adult romance. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-champagne.png",
+        "pngSha256": "afbc967f8b6d070a1385ce2abbef1e5b43298de8110fe58f65d561f322131e17",
+        "webp": "src/assets/outfit-cg-v3-champagne.webp",
+        "webpSha256": "2514879f2cf1dc44d51656fca7420c9583bc24ece01bec6cfbed6ed74cd5316b",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2913428,
+        "webpBytes": 435782
+      }
+    },
+    {
+      "id": "ruby-expressions-b",
+      "name": "赤红宣言表情b",
+      "file": "src/assets/wardrobe-v3-ruby-expressions-b.png",
+      "transparent": true,
+      "frames": 3,
+      "sourceOutfit": "ruby",
+      "references": [
+        "src/assets/wardrobe-v3-ruby.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 3 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, wide 3:2 overall image. LEFT: playful wink and confident grin. MIDDLE: happy open-eyed laughing smile, joyful cheeks. RIGHT: annoyed tsundere pout, furrowed brows and puffed cheeks. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-ruby-expressions-b.png",
+        "pngSha256": "1e11d670df4357e755150eace2448f38d36f1031edaa94a755e95878fd2af202",
+        "webp": "src/assets/wardrobe-v3-ruby-expressions-b.webp",
+        "webpSha256": "3369c78247f78f500ce68d1b6ce9e7650c6e71b16abb0a2ad82a0d4afebbee6b",
+        "width": 1536,
+        "height": 1024,
+        "pngBytes": 2315025,
+        "webpBytes": 308658
+      }
+    },
+    {
+      "id": "ruby-expressions-c",
+      "name": "赤红宣言表情c",
+      "file": "src/assets/wardrobe-v3-ruby-expressions-c.png",
+      "transparent": true,
+      "frames": 2,
+      "sourceOutfit": "ruby",
+      "references": [
+        "src/assets/wardrobe-v3-ruby.png"
+      ],
+      "prompt": "Create a NEW expression sprite atlas. Attached reference is a THREE-frame strip. Use its LEFT figure ONLY as exact ADULT AGE 23 character identity, outfit, body proportions and pose reference. Preserve the precise clothing, accessories, hair shape, full-body relaxed pose and lighting, but redraw facial expressions clearly. Output exactly 2 identical full-body adult female Malfoy figures, each centered in its own equal vertical cell in a single row, square 1:1 overall image. LEFT: genuinely worried, softened brows and concerned eyes. RIGHT: tender affectionate smile, relaxed eyelids and gentle blush. Keep ALL figures fully visible hair to shoes, same scale and feet baseline, clear transparent separation and no overlap. Mature adult face in all frames. Exactly TWO hands and TWO arms per figure, coherent five fingers. Commercial anime game painting, same fine detail as reference. Genuine transparent background; no scenery, text, labels, borders, UI, other characters or extra limbs.",
+      "output": {
+        "png": "src/assets/wardrobe-v3-ruby-expressions-c.png",
+        "pngSha256": "fe7a7ed8c16358cbc9c2636d00ec4530691cfe09ee30381760db9b4c170ba432",
+        "webp": "src/assets/wardrobe-v3-ruby-expressions-c.webp",
+        "webpSha256": "539e6e6762a8ec1a9399347e9f9969693d2d749e8c34c29f20d92e161fcfacb0",
+        "width": 1254,
+        "height": 1254,
+        "pngBytes": 1865370,
+        "webpBytes": 330936
+      }
+    },
+    {
+      "id": "cg-ruby",
+      "name": "赤红宣言番外CG",
+      "file": "src/assets/outfit-cg-v3-ruby.png",
+      "transparent": false,
+      "sourceOutfit": "ruby",
+      "references": [
+        "src/assets/wardrobe-v3-ruby.png",
+        "src/assets/cg-v2-1.png"
+      ],
+      "prompt": "Create ONE richly detailed premium anime visual novel CG, wide 16:9, not a contact sheet. First reference LEFT figure provides female Draco Malfoy's exact FACE, HAIR and FULLY DRESSED OUTFIT. Second reference provides only Harry Potter's face identity: ADULT man AGE 23, messy black hair, round glasses. BOTH characters unequivocally ADULT AGE 23, mature anime faces. Preserve her outfit exactly. Scene: In a grand winter hall beside an ornate chess table, she straightens Harry's bow tie before a banquet, scarlet dress and short cape, he smiles directly at her. Beautiful adult couple romance, natural modest affectionate body language, fully dressed, no intimate sexual activity. Compose with her adult figure and elegant clothing clearly readable from head to at least below knees, natural body proportions, coherent TWO arms and TWO hands per character, no extra fingers. Harry wears sophisticated adult wizard clothes suitable for scene. Cinematic expressive faces, exquisite material detail, warm and cool atmospheric light. No text, logo, labels, UI or watermark.",
+      "output": {
+        "png": "src/assets/outfit-cg-v3-ruby.png",
+        "pngSha256": "1c78be31c1c315f3897501dcc21144f537585b3b29eb74c81032fa977ef4085b",
+        "webp": "src/assets/outfit-cg-v3-ruby.webp",
+        "webpSha256": "25135106fb256f0c203f985c304af4fbf9c3a8a732789afee5d3667c9836a2ae",
+        "width": 1672,
+        "height": 941,
+        "pngBytes": 2699918,
+        "webpBytes": 389820
+      }
+    }
+  ],
+  "verifiedDate": "2026-10-17",
+  "inventory": {
+    "outfits": 24,
+    "expressionsPerOutfit": 8,
+    "expressionFrames": 192,
+    "atlases": 72,
+    "framesPerAtlasGroup": [
+      3,
+      3,
+      2
+    ],
+    "exclusiveCG": 24,
+    "PNGSourceRetained": true,
+    "gameFormat": "WebP",
+    "rendererCrop": "src/ui/outfitFrames.ts; no PNG modification"
+  }
+}

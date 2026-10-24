@@ -1,0 +1,271 @@
+{
+  "date": "2026-10-16",
+  "assets": [
+    {
+      "name": "malfoy-v2-proud",
+      "transparent": true,
+      "prompt": "Use the attached image only as CHARACTER IDENTITY reference. Adult female Draco Malfoy, AGE 23, unmistakably adult elegant anime woman, long luminous platinum blonde hair, silver-green eyes, small gold hoop earrings, proud tsundere expression. Premium Japanese anime game character illustration, confident clean ink contours, exquisite cel-painted shading, NOT photorealism. Naturally curvy hourglass adult figure, fitted emerald brocade waistcoat emphasizing bust and narrow waist, white blouse with open collar, loosely tied green-silver tie, tasteful short black pleated skirt, long shapely legs in sheer black tights, heeled ankle boots, dark wizard cape with green lining. Attractive mature fashion model proportions, sensual confident elegance, cute face, fully clothed, non-explicit. Render ONE full-body character from hair to both boots, feet at the same baseline, generous transparent margins, 2:3 vertical composition. No background, no ground, no text, no logo, no watermark, no extra figures. Pose: three-quarter front facing slightly left, weight on her right hip, elegantly crossed arms, wand held downward, one eyebrow raised and teasing confident smirk. Both boots fully visible and planted. Warm amber rim light from lower left, cool blue subtle fill from right, clear silhouette. Detailed waist, skirt tailoring, legs and cape folds, coherent beautiful hands.",
+      "sourceFile": "exec-e66a10d2-f7f2-4af3-9260-5797e0f47350.png",
+      "file": "src/assets/malfoy-v2-proud.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "status": "REJECTED_EXTRA_HANDS_REPLACED",
+      "references": [
+        "src/assets/malfoy-master.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2080181,
+      "sha256": "ffab09ec6fec80fb8e597a94cb8a627d929ffd7965702a9992ec938771e5e8f1",
+      "colorMode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 778518
+    },
+    {
+      "name": "chess-hall-v2",
+      "transparent": false,
+      "prompt": "Environment key art for a premium independent gothic fantasy chess game, richly painted anime game environment, cinematic 16:9 wide composition. A vast Hogwarts-inspired underground medieval chess chamber, towering ribbed pointed stone arches, a large circular tracery rose window centered in the distant wall glowing cool moonlight blue, massive weathered gray stone walls, warm ember braziers and candles along side aisles, ornate carved slate-black and ivory checkerboard chess table in the center-right with beautifully carved medieval armored statue chess pieces, thick bronze filigree table rim, tall-backed carved chairs, polished worn flagstones with subtle reflections, banners, floating dust in narrow light shafts. Camera low at seated chess player height looking toward the table and distant rose window, magnificent depth and strong atmospheric perspective. Moody blue-violet shadows and warm gold local lights, emerald only as restrained fabric accents. Left third dark calm space reserved for a game title and a vertical menu, right third spacious area beside table reserved for a full body character later. NO CHARACTERS, no writing, no symbols resembling text, no UI, no logo, no modern objects. Original scene inspired by fantasy film production design, luxurious rich material detail, not a flat empty room, not green fog everywhere.",
+      "sourceFile": "exec-a8711358-c1fa-4fa7-91a2-9d6eb17b1a95.png",
+      "file": "src/assets/chess-hall-v2.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2743129,
+      "sha256": "5ce0ed1a3da2e6ba6d74beaad93ea6ad6f23716c753e5b277b77e9b38b6d43c5",
+      "colorMode": "RGB",
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "cg-v2-0",
+      "transparent": false,
+      "prompt": "Create ONE full-resolution 16:9 anime visual novel CG, NOT a contact sheet. Use reference only for consistent adult couple identity. BOTH ADULT AGE 23: platinum blonde female Draco Malfoy, emerald brocade tailored waistcoat white blouse short black pleated skirt and black tights, naturally curvy adult body and long legs, teasing tsundere face; Harry Potter adult man with messy black hair round glasses burgundy-dark wizard clothes. In a magnificent cold-blue gothic stone chess hall with towering arches and warm braziers, she stands at the side of an ornate chess table leaning slightly toward Harry, one hand on hip and the other teasingly lifting a carved knight, her whole figure from head to above ankles visible, Harry seated on the opposite side gazing warmly up at her. Her cape falls open to show elegant waist and long legs, confident sophisticated fashion, fully clothed, non-explicit sweet romance. Cinematic wide composition, detailed anime ink and cel paint, richly layered stone and velvet materials, lovely adult faces, coherent hands, romantic lively tension. No text, no logos, no UI, no watermarks.",
+      "sourceFile": "exec-b4c35d58-23dd-4152-aadc-3cb8374cd695.png",
+      "file": "src/assets/cg-v2-0.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "src/assets/story-scenes.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2885389,
+      "sha256": "743ca2252553cadb628e5efda0c0b759b0abf1879e5bb47c69c7931668a0e3dc",
+      "colorMode": "RGB",
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "spell-art-v2",
+      "transparent": false,
+      "prompt": "A premium fantasy card game ILLUSTRATION ATLAS, exactly 6 columns by 4 rows, TWENTY FOUR separate square painted illustrations, uniform equal cells, no borders and NO TEXT. Every cell is a richly detailed miniature magical vignette in a consistent luxurious hand-painted anime-fantasy style, moody deep slate backgrounds with amber, silver, turquoise and emerald spell light. Reading order: 1 levitating carved stone rook in swirling feathers; 2 magical hand drawing a knight through an emerald ribbon; 3 pawn sliding over an icy silver trail; 4 pawn propelled by a bright golden magical gust; 5 translucent blue-gold shield protecting a statue; 6 magnificent luminous silver stag with antlers; 7 wand breaking dark purple chains; 8 broken stone pawn magically reassembling with golden seams; 9 armored knight imprisoned in ice-blue stone crystals; 10 rook caught in slow violet spirals; 11 a red stun bolt stopping a pawn; 12 queen dancing along a diagonal violet ribbon; 13 vivid warm fire rune on a chess tile; 14 water flowing over three slate tiles; 15 ancient stone door sealed with a glowing rune; 16 antique bronze key unlocking an arcane door; 17 wand knocked from an armored hand by red sparks; 18 sharp silver magical cutting crescents; 19 enlarged majestic ivory pawn growing in gold light; 20 tiny nimble knight surrounded by silver motes; 21 elegant wand emitting a bright ivory light orb; 22 silhouette of a knight concealed under a deep blue veil; 23 swirling mist erasing a magical card into tiny sparks; 24 dark fear mask transforming into golden butterflies. Exact 6x4 grid critical; no labels, no letters, no numbers, no writing. Each illustration distinct and clearly recognizable when displayed as a large skill card.",
+      "sourceFile": "exec-71554df8-c7b1-414d-9055-e093d1276885.png",
+      "file": "src/assets/spell-art-v2.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [],
+      "width": 1536,
+      "height": 1024,
+      "bytes": 3631999,
+      "sha256": "174a167371d45a754fe3693b51a1a8892737bbe60ef6585f696480799b4f554e",
+      "colorMode": "RGB",
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "malfoy-v2-shy",
+      "transparent": true,
+      "prompt": "Use the attached image only as CHARACTER IDENTITY reference. Adult female Draco Malfoy, AGE 23, unmistakably adult elegant anime woman, long luminous platinum blonde hair, silver-green eyes, small gold hoop earrings, proud tsundere expression. Premium Japanese anime game character illustration, confident clean ink contours, exquisite cel-painted shading, NOT photorealism. Naturally curvy hourglass adult figure, fitted emerald brocade waistcoat emphasizing bust and narrow waist, white blouse with open collar, loosely tied green-silver tie, tasteful short black pleated skirt, long shapely legs in sheer black tights, heeled ankle boots, dark wizard cape with green lining. Attractive mature fashion model proportions, sensual confident elegance, cute face, fully clothed, non-explicit. Render ONE full-body character from hair to both boots, feet at the same baseline, generous transparent margins, 2:3 vertical composition. No background, no ground, no text, no logo, no watermark, no extra figures. Keep exactly the reference face, body proportions, costume, boots and clear full-body scale. New pose: one knee slightly inward in bashful contrapposto, looking aside with rosy blushing cheeks and ears, one hand lightly pinches her tie at the collar, other hand holds wand by her thigh, shy embarrassed pout trying to seem haughty. Cape opens to show fitted waist and long legs. Head and both boot soles fully inside image. Warm amber rim light lower left, subtle cool blue fill right.",
+      "sourceFile": "exec-571c4436-e5a4-4af4-b6f8-82303cfefbd5.png",
+      "file": "src/assets/malfoy-v2-shy.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "src/assets/malfoy-v2-proud.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2152951,
+      "sha256": "432ed04d7946daf6e2936fc7e0d0ee459359bd00ec5cc3eab43ad24650eddd28",
+      "colorMode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 776244,
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "malfoy-v2-cast",
+      "transparent": true,
+      "prompt": "Use the attached image only as CHARACTER IDENTITY reference. Adult female Draco Malfoy, AGE 23, unmistakably adult elegant anime woman, long luminous platinum blonde hair, silver-green eyes, small gold hoop earrings, proud tsundere expression. Premium Japanese anime game character illustration, confident clean ink contours, exquisite cel-painted shading, NOT photorealism. Naturally curvy hourglass adult figure, fitted emerald brocade waistcoat emphasizing bust and narrow waist, white blouse with open collar, loosely tied green-silver tie, tasteful short black pleated skirt, long shapely legs in sheer black tights, heeled ankle boots, dark wizard cape with green lining. Attractive mature fashion model proportions, sensual confident elegance, cute face, fully clothed, non-explicit. Render ONE full-body character from hair to both boots, feet at the same baseline, generous transparent margins, 2:3 vertical composition. No background, no ground, no text, no logo, no watermark, no extra figures. Keep exactly reference identity, costume, proportions and boots. New full-body pose: determined elegant spellcasting stance, one arm extends her wand to the left at waist level, other hand rests on her hip, cape swept gently outward, confident teasing smile and sharp silver-green eyes. Feet both planted and fully visible. Very restrained gold magic particles only around wand tip, no large glowing background. Warm amber rim light, blue fill.",
+      "sourceFile": "exec-aae37ceb-42db-4033-a3c7-d6be3551ee8f.png",
+      "file": "src/assets/malfoy-v2-cast.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "src/assets/malfoy-v2-proud.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2255853,
+      "sha256": "bdab3f7b4f2146476562c9186196f2212801f2a3ea3fc008379753d9d9f95483",
+      "colorMode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 714014,
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "malfoy-v2-gala",
+      "transparent": true,
+      "prompt": "ONE transparent full-body illustration of the SAME ADULT female Draco Malfoy, AGE 23, using reference for exact facial identity, long platinum hair, silver-green eyes and small gold hoops. Premium clearly drawn Japanese anime visual novel style, elegant naturally curvy hourglass figure, sophisticated mature woman. New outfit: fitted dark emerald velvet evening gown with an elegant off-shoulder neckline, sculpted waist, long flowing skirt with a tasteful high side slit revealing one long leg, opaque coverage of breasts and hips, delicate silver necklace, black high heels, green-silver shawl loosely draped over one arm. Sexy and graceful yet cute, fully clothed, non-explicit. Warm loving blush and shy smile, one hand holds the shawl near her waist, slight contrapposto, three-quarter front view. Complete head-to-toe composition including both shoes, generous transparent padding, exact 2:3 vertical canvas. No scene, no text, no logos, no watermarks, no extra person. Warm amber rim from left and cool moonlight fill.",
+      "sourceFile": "exec-48e058e5-9b8f-44c5-8d57-b4a4973d8e00.png",
+      "file": "src/assets/malfoy-v2-gala.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "src/assets/malfoy-v2-proud.png"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2141289,
+      "sha256": "ef800438bcaa842cd1b8a03fcac14cecffa10afd61363eb54a0d4a7fe74e1817",
+      "colorMode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 843628,
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "cg-v2-1",
+      "transparent": false,
+      "prompt": "ONE full-resolution premium Japanese anime romance game CG, landscape 16:9, NOT a contact sheet, no text or UI. Same adult couple as reference, BOTH explicitly AGE 23: female Draco Malfoy with long platinum blonde hair, silver-green eyes, small hoop earrings, proud cute tsundere face and naturally curvy mature hourglass figure; Harry Potter a tall adult man with messy black hair round glasses green eyes and burgundy-dark wizard clothes. Exquisite drawn ink contours, refined painted cel shading, beautiful consistent adult faces, detailed clothing and coherent hands, cinematic romantic composition. Fully clothed, non-explicit affectionate adult romance. Snowy castle viaduct at dusk, she wears her emerald fitted waistcoat, short black pleated skirt, black tights and an open fur-trimmed wizard cloak. Harry takes her hand and gently kisses her knuckles while she blushes, pretending to look away. Show both figures from head to knees with her elegant waist, skirt and long legs visible, magical lanterns receding into the snowy archway, cool blue snow and warm candle light. New intimate date moment with atmospheric depth.",
+      "sourceFile": "exec-a3380a6a-f318-4ad4-8e8f-3ec76bf1cf6a.png",
+      "file": "src/assets/cg-v2-1.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "src/assets/story-scenes.png",
+        "src/assets/malfoy-v2-proud.png"
+      ],
+      "width": 1672,
+      "height": 940,
+      "bytes": 2915357,
+      "sha256": "50481284a56b01c54e4942add3279e480a956100e81170c6fe0b0eaf4e125c7f",
+      "colorMode": "RGB",
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "cg-v2-2",
+      "transparent": false,
+      "prompt": "ONE full-resolution premium Japanese anime romance game CG, landscape 16:9, NOT a contact sheet, no text or UI. Same adult couple as reference, BOTH explicitly AGE 23: female Draco Malfoy with long platinum blonde hair, silver-green eyes, small hoop earrings, proud cute tsundere face and naturally curvy mature hourglass figure; Harry Potter a tall adult man with messy black hair round glasses green eyes and burgundy-dark wizard clothes. Exquisite drawn ink contours, refined painted cel shading, beautiful consistent adult faces, detailed clothing and coherent hands, cinematic romantic composition. Fully clothed, non-explicit affectionate adult romance. In a richly detailed candlelit gothic library at night, she sits elegantly on the edge of a carved desk beside the chessboard, one leg casually crossed over the other, emerald waistcoat white blouse short pleated skirt and black tights. Harry stands close at her side, guiding her fingers on a carved knight while she blushes and looks toward his face; their shoulders touch. Focus on romantic closeness and flattering whole torso, waist and leg silhouette, mature adult proportions, books and stained glass in warm amber and blue moonlight. Natural gentle affectionate gesture.",
+      "sourceFile": "exec-19a6f6b2-439e-4144-8be1-18007958d495.png",
+      "file": "src/assets/cg-v2-2.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "src/assets/story-scenes.png",
+        "src/assets/malfoy-v2-proud.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2645554,
+      "sha256": "7bf016ed9a6f348b80eeaf7f99c32e700057d5e386cdb95d6557793f182fadb7",
+      "colorMode": "RGB",
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "cg-v2-3",
+      "transparent": false,
+      "prompt": "ONE full-resolution premium Japanese anime romance game CG, landscape 16:9, NOT a contact sheet, no text or UI. Same adult couple as reference, BOTH explicitly AGE 23: female Draco Malfoy with long platinum blonde hair, silver-green eyes, small hoop earrings, proud cute tsundere face and naturally curvy mature hourglass figure; Harry Potter a tall adult man with messy black hair round glasses green eyes and burgundy-dark wizard clothes. Exquisite drawn ink contours, refined painted cel shading, beautiful consistent adult faces, detailed clothing and coherent hands, cinematic romantic composition. Fully clothed, non-explicit affectionate adult romance. Christmas confession beside a soaring gothic rose window, silver snow outside. She wears an elegant fitted off-shoulder emerald velvet evening gown, narrow waist, tasteful side slit showing one long leg, silver necklace and black heels. Harry offers his hand with a sincere smile; she takes it, blushing intensely with a shy happy expression. Both full figures visible from head to shoes in a cinematic wide shot, little glowing Christmas lights behind, intricate stone arches and velvet fabrics. Romantic adult glamour, classy non-explicit fashion, original scene.",
+      "sourceFile": "exec-479589e6-8d2c-4fec-9ca4-1cea720b6916.png",
+      "file": "src/assets/cg-v2-3.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "src/assets/story-scenes.png",
+        "src/assets/malfoy-v2-proud.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 3061939,
+      "sha256": "03dbf5cd7e17ecadda2abd3e67357e48847bc58b8fb19faa5f59da1b8954dcc6",
+      "colorMode": "RGB",
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "cg-v2-4",
+      "transparent": false,
+      "prompt": "ONE full-resolution premium Japanese anime romance game CG, landscape 16:9, NOT a contact sheet, no text or UI. Same adult couple as reference, BOTH explicitly AGE 23: female Draco Malfoy with long platinum blonde hair, silver-green eyes, small hoop earrings, proud cute tsundere face and naturally curvy mature hourglass figure; Harry Potter a tall adult man with messy black hair round glasses green eyes and burgundy-dark wizard clothes. Exquisite drawn ink contours, refined painted cel shading, beautiful consistent adult faces, detailed clothing and coherent hands, cinematic romantic composition. Fully clothed, non-explicit affectionate adult romance. Cozy winter tea date in a small Hogwarts sitting room with a crackling fireplace. She in fitted emerald waistcoat white blouse black pleated skirt and black tights sits sideways on a deep green velvet sofa with legs elegantly crossed, leaning her head affectionately on Harry's shoulder; he wraps a green scarf around both of them while holding a teacup. Show the couple from head to below knees with a balanced flattering adult silhouette, thoughtful tender smiles, chess set on the carved table, firelight, books and snowfall at the window. Sweet established relationship moment.",
+      "sourceFile": "exec-d569da35-cf47-4965-83d5-1ce2c970b244.png",
+      "file": "src/assets/cg-v2-4.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "src/assets/story-scenes.png",
+        "src/assets/malfoy-v2-proud.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 2774686,
+      "sha256": "e2e38c939bbab6278238d2a2095ed8aa440e2a65e7af76506d4075f594212f6b",
+      "colorMode": "RGB",
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "cg-v2-5",
+      "transparent": false,
+      "prompt": "ONE full-resolution premium Japanese anime romance game CG, landscape 16:9, NOT a contact sheet, no text or UI. Same adult couple as reference, BOTH explicitly AGE 23: female Draco Malfoy with long platinum blonde hair, silver-green eyes, small hoop earrings, proud cute tsundere face and naturally curvy mature hourglass figure; Harry Potter a tall adult man with messy black hair round glasses green eyes and burgundy-dark wizard clothes. Exquisite drawn ink contours, refined painted cel shading, beautiful consistent adult faces, detailed clothing and coherent hands, cinematic romantic composition. Fully clothed, non-explicit affectionate adult romance. Triumphant finale in a vast ancient wizard chess cathedral hall, ornate slate-black and ivory board and broken armored enemy statues in foreground. She in her emerald fitted waistcoat and black skirt/tights stands at Harry's side, waist and long legs fully visible, her hand clasped in his, she leans up to kiss his cheek with confident affection. A magnificent silver Patronus stag arcs behind them amid cool blue dust and warm golden embers, ribbed vaults and rose window. Cinematic romantic full-figure composition, elegant strong adult heroes, detailed stone and fabric.",
+      "sourceFile": "exec-d8d7552c-bc1d-43bc-b21a-e7fae3dcdcb1.png",
+      "file": "src/assets/cg-v2-5.png",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "references": [
+        "src/assets/story-scenes.png",
+        "src/assets/malfoy-v2-proud.png"
+      ],
+      "width": 1672,
+      "height": 941,
+      "bytes": 3141062,
+      "sha256": "b5662f9f66b44e46d8605a69a7ccd0b97227688200d8e0dbeba3bd9d616a0aa9",
+      "colorMode": "RGB",
+      "status": "ACCEPTED"
+    },
+    {
+      "name": "malfoy-v2-proud-fixed",
+      "file": "src/assets/malfoy-v2-proud-fixed.png",
+      "sourceFile": "exec-bdc43273-eb03-4905-9129-f698bd747a35.png",
+      "prompt": "EDIT the provided adult female Draco Malfoy full-body character image. FIX ANATOMY ONLY in the arms and hands. The current image mistakenly has three hands / overlapping extra forearms. Replace the entire arm pose with an unambiguous two-arm pose: exactly ONE anatomically connected arm on the viewer's LEFT bends naturally outward, with its ONE hand resting on her waist/hip; exactly ONE anatomically connected arm on the viewer's RIGHT hangs naturally downward, with its ONE hand holding the existing wand next to her thigh. REMOVE the extra hand on her upper arm and REMOVE the forearm crossing horizontally across her stomach. Exactly TWO shoulders, TWO upper arms, TWO elbows, TWO forearms and TWO hands total, five natural fingers on each visible hand. No crossed arms. Reconstruct the white blouse sleeves, emerald waistcoat surface and cape where the old extra limbs were removed. Preserve her same face and expression, platinum hair, earrings, mature AGE 23 adult body proportions and hourglass shape, blouse and waistcoat neckline, skirt, tights, boots, leg stance, cape, wand, full-body framing and luxurious anime painting style. Preserve genuine transparent background with clean alpha edges; no colored outline, no background, no new objects, no text, no watermark. Do not alter the face, body figure or costume outside the necessary arm corrections.",
+      "mode": "built-in",
+      "tool": "image_gen.imagegen",
+      "transparent": true,
+      "status": "CORRECTED_TWO_HANDS",
+      "references": [
+        "user-provided correction target"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2006983,
+      "sha256": "db22d417b2fdd81f5611611f5244171c8e8e5885eb85eecfb73cabb136834030",
+      "colorMode": "RGBA",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "transparentPixels": 791256
+    }
+  ],
+  "anatomyCorrection": {
+    "rejected": "src/assets/malfoy-v2-proud.png",
+    "replacement": "src/assets/malfoy-v2-proud-fixed.png",
+    "checked": "Visual inspection: exactly two arms and hands, screen-left hand on hip and screen-right hand holding wand. Replacement imported by UI and 3D scene.",
+    "pixelEdits": "None. Built-in image edit output copied unchanged."
+  }
+}

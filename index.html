@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101d1a" />
+    <meta
+      name="description"
+      content="烛光、魔法与一位嘴硬的棋友。哈利与成年女性马尔福的同人巫师棋游戏。"
+    />
+    <title>巫师棋：与马尔福的甜蜜生活</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (location.protocol === "file:") {
+        document.getElementById("root").innerHTML =
+          '<main style="max-width:620px;margin:12vh auto;padding:28px;background:#18302b;color:#eee4ce;font:18px/1.8 system-ui;border:1px solid #b5a16f">' +
+          '<h1 style="font-size:26px">请先启动游戏</h1>' +
+          "<p>游戏需要通过本地服务或Toy网页加载，不能直接双击index.html游玩。</p>" +
+          "<p>在源码项目中双击<strong>“开始游戏.cmd”</strong>，浏览器会自动打开。启动窗口请保持打开。</p>" +
+          "<p>如果你解压的是Toy上传包，请回源码项目启动，或使用HTTP静态服务器托管解压目录。</p>" +
+          '<a href="http://localhost:8787/" style="color:#f3d38e">服务启动后，点击这里进入游戏 →</a></main>';
+        document.body.style.background = "#101d1a";
+        document.body.style.margin = "20px";
+      }
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

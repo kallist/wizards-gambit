@@ -1,0 +1,29 @@
+{
+  "version": "galaxy-mirror-v5",
+  "date": "2026-10-18",
+  "assets": [
+    {
+      "id": "enchanted-mirror-v5",
+      "png": "src/assets/enchanted-mirror-v5.png",
+      "webp": "src/assets/enchanted-mirror-v5.webp",
+      "transparent": true,
+      "pngSha256": "eb1f50bde082bbf5be51ee96427db12ca48064d789998d7efc55e49134709e00",
+      "webpSha256": "e8c34a23b6a37926ca8baaa5b253cb31bc604a19feeefbe7c91cb7659e8e6511",
+      "pngBytes": 2215374,
+      "webpBytes": 212188,
+      "size": [
+        1024,
+        1536
+      ],
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Edit the provided empty antique full-length mirror game prop. Keep exactly the same silver/brass/emerald materials, carving style and overall front-facing design, but make the mirror substantially WIDER: its entire outer silhouette must fill 90% of canvas WIDTH and 94% of canvas height on the same vertical 2:3 canvas. Only a narrow 3-5% transparent margin at sides. Expand the GLASS OPENING so the straight central portion of the glass is at least 66% of canvas width; make rails thinner, not bulkier. The object is now wide enough for an entire full-body character wearing a sweeping gown, but keep the inside completely empty dark smoky emerald glass. Preserve the top emerald crest, arched top, silver leaf tracery, short feet and bottom base. No human, no reflection, no scenery, no external brown/black glow or background. The outside MUST be pure transparent alpha. Full mirror remains uncropped. This is only a technical proportion/layout repair of a UI prop; avoid new ornaments.",
+      "editTarget": ".local/ui-v5/generated-concepts/enchanted-mirror-before-width-fix.png",
+      "usage": "Painted mirror prop behind SVG character; no foreground image covers the character"
+    }
+  ],
+  "galaxy": "Real-time Three.js particle disc and procedural shader nebula/dust; generated galaxy image concepts are not bundled",
+  "conceptsNotAdopted": [
+    ".local/ui-v5/generated-concepts/galaxy-panorama-v5.png",
+    ".local/ui-v5/generated-concepts/galaxy-portrait-v5.png"
+  ]
+}

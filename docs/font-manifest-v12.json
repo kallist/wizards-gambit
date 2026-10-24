@@ -1,0 +1,11 @@
+{
+  "family": "Ma Shan Zheng",
+  "license": "SIL Open Font License 1.1",
+  "licenseFile": "public/fonts/OFL-MaShanZheng.txt",
+  "source": "https://github.com/google/fonts/tree/main/ofl/mashanzheng",
+  "subsetCodepointCount": 770,
+  "bytes": 326028,
+  "sha256": "5f0c813cdc7cf226831269f14f4c6fdf7e025de1e337b36157e897a501343db0",
+  "format": "woff2",
+  "runtimeRequests": "local only"
+}

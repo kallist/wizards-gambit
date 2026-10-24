@@ -1,0 +1,47 @@
+{
+  "generated": "2026-10-16",
+  "assets": [
+    {
+      "file": "src/assets/malfoy-master.png",
+      "source_file": "exec-8b131cf7-ebac-4a7e-bbdc-b2b49022b676.png",
+      "tool": "image_gen.imagegen",
+      "mode": "built-in",
+      "reference": null,
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode_image": "RGBA",
+      "sha256": "73e3be04ab62c05fdac6c81948e21176f1d878e45625ef550e1dacb6c9d598f5",
+      "prompt": "Use case: stylized-concept. Production asset for a polished anime romance wizard chess browser game. Create ONE beautiful full illustration of an ADULT female version of Draco Malfoy, explicitly age 23, in a post-graduation return-to-Hogwarts alternate universe. Premium commercial Japanese anime visual novel character art, elegant mature young adult face and natural adult proportions, exquisite crisp linework and painterly cel shading, luminous platinum blonde long hair with a side part, silver-green eyes, small gold hoop earrings, proud raised eyebrow and teasing confident smirk. Outfit: fitted white collared shirt with a tastefully open top collar, narrow green-and-silver tie, tailored dark emerald waistcoat defining the waist, black pleated skirt, opaque black tights, black wizard cape with emerald lining casually draped on shoulders. Attractive and cute, fashionable, fully clothed, non-explicit. Three-quarter standing pose facing slightly left, arms elegantly folded, magic wand in one hand, restrained warm gold rim light. Frame from head to mid-thigh, with all hair, elbows, wand fully within the image and generous transparent padding. Single character, genuinely transparent background. No scenery, no text, no logos, no watermark, no border, no extra people. Prioritize face, eye expression, gorgeous hair, tailoring and recognizably arrogant tsundere personality. Vertical 2:3 composition."
+    },
+    {
+      "file": "src/assets/malfoy-expressions.png",
+      "source_file": "exec-f28e7ffc-e419-4374-af7e-d332e417e512.png",
+      "tool": "image_gen.imagegen",
+      "mode": "built-in",
+      "reference": "src/assets/malfoy-master.png",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "mode_image": "RGBA",
+      "sha256": "2f4282a21fa70853a3933c2c7665641e4e41d356962dad398cce5b64a71f3473",
+      "prompt": "Create a production game EXPRESSION SPRITE SHEET of the referenced ADULT female Draco Malfoy, age 23. Keep the same platinum blonde long hair, silver-green eyes, small hoop earrings, emerald tailored waistcoat, white blouse, striped green tie and dark cape. Render in CLEAR JAPANESE ANIME visual novel style: visibly drawn ink contours, stylized almond anime eyes, simplified nose, refined cel shading and delicate painted hair, not photorealistic. Exactly 8 separate waist-up portraits, arranged in a precise uniform 4-column by 2-row grid. Every cell has identical head size, body position, framing and generous transparent padding, no overlap between cells. This will be used as CSS sprites, so every portrait must fit its own equal cell. Reading order: (1) proud teasing smirk, relaxed folded arms; (2) light pink blush on cheeks, raised eyebrow and trying to stay composed; (3) clearly blushing, looking aside with an embarrassed pout, touching her hair; (4) very rosy cheeks and ears, bashful affectionate smile, hand at collar; (5) serious focused spellcasting face with wand; (6) gently worried and caring face; (7) triumphant smug grin and wink; (8) warm loving smile, closed happy eyes, subtly blushing. Attractive mature young adult with natural proportions, fully clothed, non-explicit. Genuinely transparent background throughout, no scenery, no colored panels, no text, no numbering, no watermark, no decorative borders. Landscape 4:3 canvas; each individual portrait cell is approximately 2:3. Consistency of identity and exact grid layout is critical."
+    },
+    {
+      "file": "src/assets/story-scenes.png",
+      "source_file": "exec-91698a1b-7c22-4b70-b0a7-0ad50b9a749f.png",
+      "tool": "image_gen.imagegen",
+      "mode": "built-in",
+      "reference": "src/assets/malfoy-expressions.png",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "mode_image": "RGB",
+      "sha256": "eee1623bb01debb67ce92bf929510a4ac39b27bb16cadd6207a0c5c8cfd34118",
+      "prompt": "Production romance game CG contact sheet, precisely 3 columns by 2 rows, SIX separate 4:3 framed scenes, no borders or text. All scenes feature the same ADULT couple, BOTH AGE 23: female Draco Malfoy from reference (platinum blonde long hair, emerald tailored waistcoat, silver-green eyes, small hoop earrings, confident tsundere face) and adult Harry Potter (messy black hair, round glasses, green eyes, mature young man jaw and tall adult physique, dark burgundy-and-gold wizard clothes). High quality clearly drawn Japanese anime visual novel illustrations, intricate warm lighting, refined cel shading, original romantic fan art, all fully clothed, wholesome non-explicit romance. Reading order scenes: 1. Candlelit gothic chess room, she teasingly points at his chess move while he smiles at her; 2. Snowy castle courtyard, she wraps a green scarf around his shoulders, both shy; 3. Close shared chess analysis at a library desk, shoulders touching, she pretends to look at the board while blushing; 4. Christmas night by an arched window, he offers his hand and confesses, she takes it blushing, warm gold fairy lights; 5. Winter tea date, she gently straightens his collar and he smiles at her, affectionate couple; 6. Triumphant together at an enchanted chessboard, a glowing silver stag behind them, she gives his cheek a gentle kiss, joyful romantic ending. Keep each scene contained in its own equal grid cell, consistent character identity, strong composition, rich emerald, ivory and antique gold palette. Entire image landscape 2:1, no lettering, no watermark, no extra foreground characters."
+    }
+  ]
+}

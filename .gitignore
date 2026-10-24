@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-toy/
+server-dist/
+test-results/
+playwright-report/
+.local/
+docs/promo/
+src/assets/*.png
+*.log
+*.webp.tmp
+.env
+.env.*
+!.env.example
